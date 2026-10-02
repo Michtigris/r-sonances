@@ -1,0 +1,109 @@
+# 05 · Infos pratiques
+
+Capture : `../screens/05_-_Infos_pratiques.png` — largeur 1440px, hauteur 1890px.
+Coordonnées @(x,y) absolues dans la page, en px. Couleurs en hex. Polices : famille poids taille/interligne.
+
+- shape 1440×1890 @(0,0) fill:#FFFFFF
+- **l-header** [frame] 1440×88 @(0,0)
+  - shape 1440×88 @(0,0) fill:#FFFFFF
+  - shape 1440×1 @(0,87) fill:#E3E5EA
+  - **logo** [frame] 204×43 @(120,22)
+    - shape 36×36 @(120,26) fill:#C8402A radius:999 (pill/rond)
+    - shape 20×20 @(128,34) border:3px #FFFFFF radius:999 (pill/rond)
+    - TEXT "RÉSONANCES" — Inter 700 20px/normal #1C1B2E @(166,22) 139×24
+    - TEXT "Festival · 9 au 11 juillet 2027" — Inter 400 12px/normal #6B6A80 @(166,50) 158×15
+  - **nav** [frame] 496.3×31 @(520,36)
+    - TEXT "Accueil" — Inter 400 16px/normal #6B6A80 @(520,36) 55×19
+    - TEXT "Programme" — Inter 400 16px/normal #6B6A80 @(622.7,36) 88×19
+    - TEXT "Billetterie" — Inter 400 16px/normal #6B6A80 @(743.4,36) 72×19
+    - TEXT "Infos pratiques" — Inter 700 16px/normal #1C1B2E @(881.9,36) 118×19
+    - shape 134.4×3 @(881.9,64) fill:#C8402A radius:999 (pill/rond)
+  - **button button--outline theme-toggle** [frame] 150×48 @(1070,20)
+    - shape 150×48 @(1070,20) border:2px #1C1B2E radius:7px
+    - TEXT "Mode sombre" — Inter 700 16px/normal #1C1B2E align:center @(1091,34) 108×19
+  - **button button--primary** [frame] 84×48 @(1236,20)
+    - shape 84×48 @(1236,20) fill:#C8402A radius:6px
+    - TEXT "Réserver" — Inter 700 16px/normal #FFFFFF align:center @(1242.5,34) 71×19
+- **page-title** [frame] 1440×220 @(0,88)
+  - shape 1440×220 @(0,88) fill:#F4F5F7
+  - TEXT "Accueil / Infos pratiques" — Inter 400 14px/normal #6B6A80 @(120,138) 160×17
+  - TEXT "Infos pratiques" — Inter 700 40px/normal #1C1B2E @(120,172) 295×48
+  - TEXT "Tout ce qu’il faut savoir pour préparer votre venue." — Inter 400 20px/normal #3A3950 @(120,236) 476×24
+- **info-block** [frame] 384×300 @(120,372)
+  - shape 384×300 @(120,372) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - shape 44×44 @(150,402) fill:#F4F5F7 radius:999 (pill/rond)
+  - TEXT "1" — Inter 700 16px/normal #C8402A align:center @(168,414) 8×19
+  - TEXT "Accès" — Inter 700 20px/normal #1C1B2E @(208,412) 62×24
+  - TEXT "En train : gare de Saint-Aulnes, puis" — Inter 400 15px/normal #3A3950 @(152,477) 253×18
+  - TEXT "navette gratuite toutes les 20 minutes." — Inter 400 15px/normal #3A3950 @(152,505) 274×18
+  - TEXT "En voiture : parking P1 à 800 m," — Inter 400 15px/normal #3A3950 @(152,533) 224×18
+  - TEXT "5 € la journée." — Inter 400 15px/normal #3A3950 @(152,561) 101×18
+  - TEXT "À vélo : parking sécurisé à l’entrée." — Inter 400 15px/normal #3A3950 @(152,589) 245×18
+- **info-block** [frame] 384×300 @(528,372)
+  - shape 384×300 @(528,372) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - shape 44×44 @(558,402) fill:#F4F5F7 radius:999 (pill/rond)
+  - TEXT "2" — Inter 700 16px/normal #C8402A align:center @(574.5,414) 11×19
+  - TEXT "Horaires" — Inter 700 20px/normal #1C1B2E @(616,412) 83×24
+  - TEXT "Vendredi 9 : 17 h – 2 h" — Inter 400 15px/normal #3A3950 @(560,477) 157×18
+  - TEXT "Samedi 10 : 14 h – 3 h" — Inter 400 15px/normal #3A3950 @(560,505) 155×18
+  - TEXT "Dimanche 11 : 14 h – 0 h" — Inter 400 15px/normal #3A3950 @(560,533) 170×18
+  - TEXT "Ouverture des portes une heure" — Inter 400 15px/normal #3A3950 @(560,561) 227×18
+  - TEXT "avant le premier concert." — Inter 400 15px/normal #3A3950 @(560,589) 177×18
+- **info-block** [frame] 384×300 @(936,372)
+  - shape 384×300 @(936,372) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - shape 44×44 @(966,402) fill:#F4F5F7 radius:999 (pill/rond)
+  - TEXT "3" — Inter 700 16px/normal #C8402A align:center @(982.5,414) 11×19
+  - TEXT "Sur place" — Inter 700 20px/normal #1C1B2E @(1024,412) 92×24
+  - TEXT "Restauration locale et végétarienne," — Inter 400 15px/normal #3A3950 @(968,477) 255×18
+  - TEXT "paiement par carte uniquement." — Inter 400 15px/normal #3A3950 @(968,505) 227×18
+  - TEXT "Espace calme et poste de secours." — Inter 400 15px/normal #3A3950 @(968,533) 248×18
+  - TEXT "Site accessible aux personnes" — Inter 400 15px/normal #3A3950 @(968,561) 215×18
+  - TEXT "à mobilité réduite." — Inter 400 15px/normal #3A3950 @(968,589) 127×18
+- **faq** [frame] 1200×582 @(120,748)
+  - TEXT "Questions fréquentes" — Inter 700 40px/normal #1C1B2E @(120,748) 426×48
+  - **faq__item is-open** [frame] 1200×150 @(120,828)
+    - shape 1200×150 @(120,828) fill:#FFFFFF border:2px #1C1B2E radius:12px
+    - TEXT "Puis-je revendre mon pass ?" — Inter 700 18px/normal #1C1B2E @(152,854) 249×22
+    - shape 16×8 @(1278,862) border:2.5px #1C1B2E
+    - TEXT "Oui, via la plateforme officielle de revente, jusqu’à 48 heures avant le festival. Le pass est alors réédité" — Inter 400 16px/normal #3A3950 @(152,900) 771×19
+    - TEXT "au nom du nouvel acheteur." — Inter 400 16px/normal #3A3950 @(152,926) 209×19
+  - **faq__item** [frame] 1200×72 @(120,994)
+    - shape 1200×72 @(120,994) fill:#FFFFFF border:1px #E3E5EA radius:12px
+    - TEXT "Les enfants sont-ils acceptés ?" — Inter 700 18px/normal #1C1B2E @(152,1020) 274×22
+    - shape 16×8 @(1278,1026) border:2.5px #1C1B2E
+  - **faq__item** [frame] 1200×72 @(120,1082)
+    - shape 1200×72 @(120,1082) fill:#FFFFFF border:1px #E3E5EA radius:12px
+    - TEXT "Peut-on sortir et revenir dans la journée ?" — Inter 700 18px/normal #1C1B2E @(152,1108) 364×22
+    - shape 16×8 @(1278,1114) border:2.5px #1C1B2E
+  - **faq__item** [frame] 1200×72 @(120,1170)
+    - shape 1200×72 @(120,1170) fill:#FFFFFF border:1px #E3E5EA radius:12px
+    - TEXT "Les animaux sont-ils admis ?" — Inter 700 18px/normal #1C1B2E @(152,1196) 254×22
+    - shape 16×8 @(1278,1202) border:2.5px #1C1B2E
+  - **faq__item** [frame] 1200×72 @(120,1258)
+    - shape 1200×72 @(120,1258) fill:#FFFFFF border:1px #E3E5EA radius:12px
+    - TEXT "Que faire en cas de pluie ?" — Inter 700 18px/normal #1C1B2E @(152,1284) 230×22
+    - shape 16×8 @(1278,1290) border:2.5px #1C1B2E
+- **contact-band** [frame] 1200×140 @(120,1410)
+  - shape 1200×140 @(120,1410) fill:#F4F5F7 radius:12px
+  - TEXT "Une autre question ?" — Inter 700 24px/normal #1C1B2E @(160,1448) 243×29
+  - TEXT "L’équipe vous répond du lundi au vendredi, de 9 h à 18 h." — Inter 400 16px/normal #3A3950 @(160,1490) 428×19
+  - **button button--secondary** [frame] 188×48 @(1092,1456)
+    - shape 188×48 @(1092,1456) fill:#1C1B2E radius:6px
+    - TEXT "Nous écrire" — Inter 700 16px/normal #FFFFFF align:center @(1141,1470) 90×19
+- **l-footer** [frame] 1440×260 @(0,1630)
+  - shape 1440×260 @(0,1630) fill:#1C1B2E
+  - TEXT "RÉSONANCES" — Inter 700 20px/normal #FFFFFF @(120,1680) 139×24
+  - TEXT "Festival de musique au bord du lac des Aulnes. Trois" — Inter 400 14px/normal #C9C7D6 @(120,1720) 346×17
+  - TEXT "jours, trois scènes, une quarantaine d’artistes." — Inter 400 14px/normal #C9C7D6 @(120,1742) 303×17
+  - TEXT "Le festival" — Inter 700 14px/normal #FFFFFF @(640,1686) 71×17
+  - TEXT "Programme" — Inter 400 14px/normal #C9C7D6 @(640,1718) 77×17
+  - TEXT "Billetterie" — Inter 400 14px/normal #C9C7D6 @(640,1746) 63×17
+  - TEXT "Infos pratiques" — Inter 400 14px/normal #C9C7D6 @(640,1774) 99×17
+  - TEXT "Contact" — Inter 700 14px/normal #FFFFFF @(860,1686) 56×17
+  - TEXT "contact@resonances-festival.fr" — Inter 400 14px/normal #C9C7D6 @(860,1718) 208×17
+  - TEXT "04 00 00 00 00" — Inter 400 14px/normal #C9C7D6 @(860,1746) 104×17
+  - TEXT "Newsletter" — Inter 700 14px/normal #FFFFFF @(1120,1686) 76×17
+  - shape 200×44 @(1120,1720) fill:#2A2940 border:1px #4A4960 radius:6px
+  - TEXT "Votre e-mail" — Inter 400 14px/normal #8E8CA3 @(1136,1734) 81×17
+  - shape 1200×1 @(120,1830) fill:#3A3950
+  - TEXT "© 2027 Association Résonances · Mentions légales · Accessibilité · Crédits photos · Bibliothèque de composants" — Inter 400 12px/normal #8E8CA3 @(120,1850) 637×15

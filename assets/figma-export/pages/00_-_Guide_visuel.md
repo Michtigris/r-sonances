@@ -1,0 +1,228 @@
+# 00 · Guide visuel
+
+Capture : `../screens/00_-_Guide_visuel.png` — largeur 1440px, hauteur 3406px.
+Coordonnées @(x,y) absolues dans la page, en px. Couleurs en hex. Polices : famille poids taille/interligne.
+
+- shape 1440×3406 @(0,0) fill:#FFFFFF
+- **titre** [frame] 1047×102 @(120,54)
+  - TEXT "Guide visuel" — Inter 700 56px/normal #1C1B2E @(120,54) 338×68
+  - TEXT "Valeurs relevées sur la maquette : couleurs, typographie, espacements et composants. Les tailles sont exprimées en pixels." — Inter 400 18px/normal #3A3950 @(120,134) 1047×22
+- **couleurs** [frame] 1200×411 @(120,232)
+  - TEXT "Couleurs" — Inter 700 28px/normal #1C1B2E @(120,232) 125×34
+  - **swatch · Texte principal** [frame] 180×161 @(120,292)
+    - shape 180×110 @(120,292) fill:#1C1B2E border:1px #E3E5EA radius:12px
+    - TEXT "Texte principal" — Inter 700 14px/normal #1C1B2E @(120,414) 102×17
+    - TEXT "#1C1B2E" — Inter 400 13px/normal #6B6A80 @(120,437) 54×16
+  - **swatch · Texte courant** [frame] 180×161 @(324,292)
+    - shape 180×110 @(324,292) fill:#3A3950 border:1px #E3E5EA radius:12px
+    - TEXT "Texte courant" — Inter 700 14px/normal #1C1B2E @(324,414) 95×17
+    - TEXT "#3A3950" — Inter 400 13px/normal #6B6A80 @(324,437) 58×16
+  - **swatch · Texte secondaire** [frame] 180×161 @(528,292)
+    - shape 180×110 @(528,292) fill:#6B6A80 border:1px #E3E5EA radius:12px
+    - TEXT "Texte secondaire" — Inter 700 14px/normal #1C1B2E @(528,414) 118×17
+    - TEXT "#6B6A80" — Inter 400 13px/normal #6B6A80 @(528,437) 58×16
+  - **swatch · Fond de page** [frame] 180×161 @(732,292)
+    - shape 180×110 @(732,292) fill:#FFFFFF border:1px #E3E5EA radius:12px
+    - TEXT "Fond de page" — Inter 700 14px/normal #1C1B2E @(732,414) 92×17
+    - TEXT "#FFFFFF" — Inter 400 13px/normal #6B6A80 @(732,437) 54×16
+  - **swatch · Fond alterné** [frame] 180×161 @(936,292)
+    - shape 180×110 @(936,292) fill:#F4F5F7 border:1px #E3E5EA radius:12px
+    - TEXT "Fond alterné" — Inter 700 14px/normal #1C1B2E @(936,414) 86×17
+    - TEXT "#F4F5F7" — Inter 400 13px/normal #6B6A80 @(936,437) 55×16
+  - **swatch · Bordures** [frame] 180×161 @(1140,292)
+    - shape 180×110 @(1140,292) fill:#E3E5EA border:1px #E3E5EA radius:12px
+    - TEXT "Bordures" — Inter 700 14px/normal #1C1B2E @(1140,414) 63×17
+    - TEXT "#E3E5EA" — Inter 400 13px/normal #6B6A80 @(1140,437) 57×16
+  - **swatch · Bordure de champ** [frame] 180×161 @(120,482)
+    - shape 180×110 @(120,482) fill:#CBD0D8 border:1px #E3E5EA radius:12px
+    - TEXT "Bordure de champ" — Inter 700 14px/normal #1C1B2E @(120,604) 126×17
+    - TEXT "#CBD0D8" — Inter 400 13px/normal #6B6A80 @(120,627) 61×16
+  - **swatch · Couleur principale** [frame] 180×161 @(324,482)
+    - shape 180×110 @(324,482) fill:#C8402A border:1px #E3E5EA radius:12px
+    - TEXT "Couleur principale" — Inter 700 14px/normal #1C1B2E @(324,604) 126×17
+    - TEXT "#C8402A" — Inter 400 13px/normal #6B6A80 @(324,627) 59×16
+  - **swatch · Principale (survol)** [frame] 180×161 @(528,482)
+    - shape 180×110 @(528,482) fill:#A3311F border:1px #E3E5EA radius:12px
+    - TEXT "Principale (survol)" — Inter 700 14px/normal #1C1B2E @(528,604) 127×17
+    - TEXT "#A3311F" — Inter 400 13px/normal #6B6A80 @(528,627) 54×16
+  - **swatch · Accent** [frame] 180×161 @(732,482)
+    - shape 180×110 @(732,482) fill:#F4C95D border:1px #E3E5EA radius:12px
+    - TEXT "Accent" — Inter 700 14px/normal #1C1B2E @(732,604) 50×17
+    - TEXT "#F4C95D" — Inter 400 13px/normal #6B6A80 @(732,627) 59×16
+  - **swatch · Erreur** [frame] 180×161 @(936,482)
+    - shape 180×110 @(936,482) fill:#B3261E border:1px #E3E5EA radius:12px
+    - TEXT "Erreur" — Inter 700 14px/normal #1C1B2E @(936,604) 43×17
+    - TEXT "#B3261E" — Inter 400 13px/normal #6B6A80 @(936,627) 55×16
+- **scenes** [frame] 1200×211 @(120,702)
+  - TEXT "Couleurs des scènes" — Inter 700 28px/normal #1C1B2E @(120,702) 287×34
+  - **scene · lake** [frame] 384×151 @(120,762)
+    - shape 384×120 @(120,762) fill:#1F4E8C radius:12px
+    - TEXT "Scène du Lac" — Inter 700 20px/normal #FFFFFF @(144,794) 131×24
+    - TEXT "Texte posé sur la couleur" — Inter 400 14px/normal #FFFFFF @(144,832) 166×17
+    - TEXT "Couleur #1F4E8C · texte #FFFFFF" — Inter 400 13px/normal #6B6A80 @(120,897) 207×16
+  - **scene · forest** [frame] 384×151 @(528,762)
+    - shape 384×120 @(528,762) fill:#2F6B3A radius:12px
+    - TEXT "Scène de la Forêt" — Inter 700 20px/normal #FFFFFF @(552,794) 168×24
+    - TEXT "Texte posé sur la couleur" — Inter 400 14px/normal #FFFFFF @(552,832) 166×17
+    - TEXT "Couleur #2F6B3A · texte #FFFFFF" — Inter 400 13px/normal #6B6A80 @(528,897) 209×16
+  - **scene · kiosk** [frame] 384×151 @(936,762)
+    - shape 384×120 @(936,762) fill:#B87A1E radius:12px
+    - TEXT "Le Kiosque" — Inter 700 20px/normal #1C1B2E @(960,794) 109×24
+    - TEXT "Texte posé sur la couleur" — Inter 400 14px/normal #1C1B2E @(960,832) 166×17
+    - TEXT "Couleur #B87A1E · texte #1C1B2E" — Inter 400 13px/normal #6B6A80 @(936,897) 204×16
+- **typographie** [frame] 1200×463 @(120,982)
+  - TEXT "Typographie · Inter" — Inter 700 28px/normal #1C1B2E @(120,982) 259×34
+  - TEXT "Titre principal" — Inter 700 56px/normal #1C1B2E @(120,1042) 383×68
+  - TEXT "56 px · graisse 800 · interligne 64 px" — Inter 400 14px/normal #6B6A80 align:right @(1079,1080) 241×17
+  - shape 1200×1 @(120,1116) fill:#E3E5EA
+  - TEXT "Titre de section" — Inter 700 40px/normal #1C1B2E @(120,1140) 306×48
+  - TEXT "40 px · graisse 700 · interligne 48 px" — Inter 400 14px/normal #6B6A80 align:right @(1079,1162) 241×17
+  - shape 1200×1 @(120,1198) fill:#E3E5EA
+  - TEXT "Sous-titre" — Inter 700 28px/normal #1C1B2E @(120,1222) 139×34
+  - TEXT "28 px · graisse 700 · interligne 36 px" — Inter 400 14px/normal #6B6A80 align:right @(1080,1232) 240×17
+  - shape 1200×1 @(120,1268) fill:#E3E5EA
+  - TEXT "Texte d’introduction" — Inter 400 20px/normal #1C1B2E @(120,1292) 188×24
+  - TEXT "20 px · graisse 400 · interligne 32 px" — Inter 400 14px/normal #6B6A80 align:right @(1079,1294) 241×17
+  - shape 1200×1 @(120,1330) fill:#E3E5EA
+  - TEXT "Texte courant" — Inter 400 16px/normal #1C1B2E @(120,1354) 105×19
+  - TEXT "16 px · graisse 400 · interligne 26 px" — Inter 400 14px/normal #6B6A80 align:right @(1081,1352) 239×17
+  - shape 1200×1 @(120,1388) fill:#E3E5EA
+  - TEXT "Petit texte" — Inter 400 14px/normal #1C1B2E @(120,1412) 69×17
+  - TEXT "14 px · graisse 400 · interligne 22 px" — Inter 400 14px/normal #6B6A80 align:right @(1081,1408) 239×17
+  - shape 1200×1 @(120,1444) fill:#E3E5EA
+- **espacements** [frame] 1200×159 @(120,1510)
+  - TEXT "Espacements" — Inter 700 28px/normal #1C1B2E @(120,1510) 187×34
+  - **space 8** [frame] 30×43 @(120,1626)
+    - shape 8×8 @(120,1626) fill:#C8402A
+    - TEXT "8 px" — Inter 700 14px/normal #1C1B2E @(120,1652) 30×17
+  - **space 16** [frame] 36×51 @(280,1618)
+    - shape 16×16 @(280,1618) fill:#C8402A
+    - TEXT "16 px" — Inter 700 14px/normal #1C1B2E @(280,1652) 36×17
+  - **space 24** [frame] 38×59 @(440,1610)
+    - shape 24×24 @(440,1610) fill:#C8402A
+    - TEXT "24 px" — Inter 700 14px/normal #1C1B2E @(440,1652) 38×17
+  - **space 40** [frame] 40×75 @(600,1594)
+    - shape 40×40 @(600,1594) fill:#C8402A
+    - TEXT "40 px" — Inter 700 14px/normal #1C1B2E @(600,1652) 39×17
+  - **space 64** [frame] 64×99 @(760,1570)
+    - shape 64×64 @(760,1570) fill:#C8402A
+    - TEXT "64 px" — Inter 700 14px/normal #1C1B2E @(760,1652) 39×17
+  - TEXT "Rayons" — Inter 700 28px/normal #1C1B2E @(960,1510) 101×34
+  - **radius 6** [frame] 100×99 @(960,1570)
+    - shape 100×64 @(960,1570) fill:#FFFFFF border:1px #1C1B2E radius:6px
+    - TEXT "6 px" — Inter 700 14px/normal #1C1B2E @(960,1652) 30×17
+  - **radius 12** [frame] 100×99 @(1090,1570)
+    - shape 100×64 @(1090,1570) fill:#FFFFFF border:1px #1C1B2E radius:12px
+    - TEXT "12 px" — Inter 700 14px/normal #1C1B2E @(1090,1652) 36×17
+  - **radius pill** [frame] 100×83 @(1220,1586)
+    - shape 100×44 @(1220,1586) fill:#FFFFFF border:1px #1C1B2E radius:999 (pill/rond)
+    - TEXT "999 px" — Inter 700 14px/normal #1C1B2E @(1220,1652) 48×17
+- **boutons** [frame] 923×141 @(120,1730)
+  - TEXT "Boutons" — Inter 700 28px/normal #1C1B2E @(120,1730) 115×34
+  - **button button--primary** [frame] 160×48 @(120,1790)
+    - shape 160×48 @(120,1790) fill:#C8402A radius:6px
+    - TEXT "Principal" — Inter 700 16px/normal #FFFFFF align:center @(165.5,1804) 69×19
+  - TEXT "Principal" — Inter 400 13px/normal #6B6A80 @(120,1855) 53×16
+  - **button button--primary:hover** [frame] 160×48 @(310,1790)
+    - shape 160×48 @(310,1790) fill:#A3311F radius:6px
+    - TEXT "Survol" — Inter 700 16px/normal #FFFFFF align:center @(364.5,1804) 51×19
+  - TEXT "Principal, survol" — Inter 400 13px/normal #6B6A80 @(310,1855) 97×16
+  - **button button--secondary** [frame] 160×48 @(500,1790)
+    - shape 160×48 @(500,1790) fill:#1C1B2E radius:6px
+    - TEXT "Secondaire" — Inter 700 16px/normal #FFFFFF align:center @(535.5,1804) 89×19
+  - TEXT "Secondaire" — Inter 400 13px/normal #6B6A80 @(500,1855) 70×16
+  - **button button--outline** [frame] 160×48 @(690,1790)
+    - shape 160×48 @(690,1790) border:2px #1C1B2E radius:7px
+    - TEXT "Contour" — Inter 700 16px/normal #1C1B2E align:center @(737.5,1804) 65×19
+  - TEXT "Contour" — Inter 400 13px/normal #6B6A80 @(690,1855) 50×16
+  - **button:focus-visible** [frame] 166×54 @(877,1787)
+    - shape 166×54 @(877,1787) border:3px #F2B8AC radius:10.5px
+    - shape 160×48 @(880,1790) fill:#C8402A radius:6px
+    - TEXT "Focus clavier" — Inter 700 16px/normal #FFFFFF align:center @(908,1804) 104×19
+  - TEXT "Focus clavier" — Inter 400 13px/normal #6B6A80 @(880,1855) 81×16
+- **filtres-badges** [frame] 852×137 @(120,1920)
+  - TEXT "Filtres et badges" — Inter 700 28px/normal #1C1B2E @(120,1920) 229×34
+  - **filter__button** [frame] 148×44 @(120,1980)
+    - shape 148×44 @(120,1980) fill:#FFFFFF border:1px #E3E5EA radius:999 (pill/rond)
+    - TEXT "Scène du Lac" — Inter 700 15px/normal #3A3950 align:center @(145,1993) 98×18
+  - TEXT "Par défaut" — Inter 400 13px/normal #6B6A80 @(120,2041) 64×16
+  - **filter__button is-active** [frame] 148×44 @(300,1980)
+    - shape 148×44 @(300,1980) fill:#1C1B2E radius:999 (pill/rond)
+    - TEXT "Scène du Lac" — Inter 700 15px/normal #FFFFFF align:center @(325,1993) 98×18
+  - TEXT "Sélectionné (.is-active)" — Inter 400 13px/normal #6B6A80 @(300,2041) 142×16
+  - **badge badge--lake** [frame] 118×26 @(560,1989)
+    - shape 118×26 @(560,1989) fill:#1F4E8C radius:999 (pill/rond)
+    - TEXT "Scène du Lac" — Inter 700 13px/normal #FFFFFF align:center @(576.5,1994) 85×16
+  - **badge badge--forest** [frame] 157×26 @(700,1989)
+    - shape 157×26 @(700,1989) fill:#2F6B3A radius:999 (pill/rond)
+    - TEXT "Scène de la Forêt" — Inter 700 13px/normal #FFFFFF align:center @(724,1994) 109×16
+  - **badge badge--kiosk** [frame] 102×26 @(870,1989)
+    - shape 102×26 @(870,1989) fill:#B87A1E radius:999 (pill/rond)
+    - TEXT "Le Kiosque" — Inter 700 13px/normal #1C1B2E align:center @(885.5,1994) 71×16
+  - TEXT "Badges de scène" — Inter 400 13px/normal #6B6A80 @(560,2041) 106×16
+- **champs** [frame] 1160×161 @(120,2110)
+  - TEXT "Champs de formulaire" — Inter 700 28px/normal #1C1B2E @(120,2110) 303×34
+  - **field** [frame] 360×107 @(120,2164)
+    - TEXT "Nom" — Inter 700 14px/normal #1C1B2E @(120,2164) 32×17
+    - shape 360×48 @(120,2192) fill:#FFFFFF border:1px #CBD0D8 radius:6px
+    - TEXT "Durand" — Inter 400 16px/normal #1C1B2E @(136,2206) 56×19
+    - TEXT "Par défaut" — Inter 400 13px/normal #6B6A80 @(120,2255) 64×16
+  - **field focus** [frame] 366×107 @(517,2164)
+    - TEXT "Formule" — Inter 700 14px/normal #1C1B2E @(520,2164) 56×17
+    - shape 366×54 @(517,2189) border:3px #F2B8AC radius:9.5px
+    - shape 360×48 @(520,2192) fill:#FFFFFF border:2px #C8402A radius:6px
+    - TEXT "Pass 3 jours" — Inter 400 16px/normal #1C1B2E @(536,2206) 93×19
+    - TEXT "Focus" — Inter 400 13px/normal #6B6A80 @(520,2255) 37×16
+  - **field error** [frame] 360×107 @(920,2164)
+    - TEXT "E-mail" — Inter 700 14px/normal #1C1B2E @(920,2164) 44×17
+    - shape 360×48 @(920,2192) fill:#FFFFFF border:2px #B3261E radius:6px
+    - TEXT "camille.durand@" — Inter 400 16px/normal #1C1B2E @(936,2206) 126×19
+    - TEXT "Erreur : Adresse e-mail invalide." — Inter 400 13px/normal #B3261E @(920,2255) 195×16
+- **cartes** [frame] 792×568 @(120,2330)
+  - TEXT "Carte d’artiste" — Inter 700 28px/normal #1C1B2E @(120,2330) 197×34
+  - TEXT "Version standard (programme) et version tête d’affiche (accueil)." — Inter 400 14px/normal #6B6A80 @(120,2374) 426×17
+  - **card theme-lake** [frame] 384×400 @(120,2418)
+    - shape 384×400 @(120,2418) fill:#FFFFFF border:1px #E3E5EA radius:12px
+    - **card__media** [frame] 384×216 @(120,2418)
+      - **Clip path group** [frame] 384×216 @(120,2418)
+        - **clip19** [frame] 384×216 @(120,2418)
+          - shape 384×216 @(120,2418) fill:#000000 radius:12px
+        - rounded_rectangle 384×216 @(120,2418) fill:image:maree-basse.jpg
+    - shape 384×6 @(120,2634) fill:#1F4E8C
+    - **badge badge--lake** [frame] 118×26 @(140,2658)
+      - shape 118×26 @(140,2658) fill:#1F4E8C radius:999 (pill/rond)
+      - TEXT "Scène du Lac" — Inter 700 13px/normal #FFFFFF align:center @(156.5,2663) 85×16
+    - TEXT "Marée Basse" — Inter 700 20px/normal #1C1B2E @(140,2694) 126×24
+    - TEXT "Rock · Ven. 9 · 20 h 15" — Inter 400 14px/normal #6B6A80 @(140,2728) 147×17
+    - **card__link** [frame] 98×17 @(140,2780)
+      - TEXT "Voir la fiche →" — Inter 700 14px/normal #C8402A @(140,2780) 98×17
+  - **card card--headliner theme-lake** [frame] 384×480 @(528,2418)
+    - shape 384×480 @(528,2418) fill:#FFFFFF border:1px #E3E5EA radius:12px
+    - **card__media** [frame] 384×300 @(528,2418)
+      - **Clip path group** [frame] 384×300 @(528,2418)
+        - **clip20** [frame] 384×300 @(528,2418)
+          - shape 384×300 @(528,2418) fill:#000000 radius:12px
+        - rounded_rectangle 384×300 @(528,2418) fill:image:lune-rousse.jpg
+    - shape 384×6 @(528,2718) fill:#1F4E8C
+    - **badge badge--lake** [frame] 118×26 @(548,2742)
+      - shape 118×26 @(548,2742) fill:#1F4E8C radius:999 (pill/rond)
+      - TEXT "Scène du Lac" — Inter 700 13px/normal #FFFFFF align:center @(564.5,2747) 85×16
+    - TEXT "LUNE ROUSSE" — Inter 700 28px/normal #1C1B2E @(548,2774) 196×34
+    - TEXT "Pop · Ven. 9 · 22 h 30" — Inter 400 14px/normal #6B6A80 @(548,2818) 142×17
+    - **card__link** [frame] 98×17 @(548,2860)
+      - TEXT "Voir la fiche →" — Inter 700 14px/normal #C8402A @(548,2860) 98×17
+- **credits-photos** [frame] 715×363 @(120,2970)
+  - TEXT "Crédits photos" — Inter 700 28px/normal #1C1B2E @(120,2970) 203×34
+  - TEXT "Photographies issues de Wikimedia Commons, sous licences libres (CC0, CC BY, CC BY-SA)." — Inter 400 14px/normal #6B6A80 @(120,3016) 613×17
+  - TEXT "Meshuggah Stage Design 2022, Ancienne Belgique, Belgium. 06 — Kinglevel — CC BY-SA 4.0" — Inter 400 13px/normal #3A3950 @(120,3053) 575×16
+  - TEXT "Vibrant drum kit illuminated with blue lighting at a live music event in an indoor venue — Shixart1985 — CC BY 2.0" — Inter 400 13px/normal #3A3950 @(120,3077) 699×16
+  - TEXT "Live rock band performance under stage lights during an outdoor festival in the evening — Shixart1985 — CC BY 2.0" — Inter 400 13px/normal #3A3950 @(120,3101) 715×16
+  - TEXT "Meshuggah Stage Design 2022, Ancienne Belgique, Belgium. 08 — Kinglevel — CC BY-SA 4.0" — Inter 400 13px/normal #3A3950 @(120,3125) 575×16
+  - TEXT "DJ at an Electronic Music Festival (Unsplash) — Lucas Gallone lucasgallone — CC0" — Inter 400 13px/normal #3A3950 @(120,3149) 509×16
+  - TEXT "Recording a concert (Unsplash) — veeterzy veeterzy — CC0" — Inter 400 13px/normal #3A3950 @(120,3173) 373×16
+  - TEXT "Meshuggah 2017 Live Birmingham Lighting — Kinglevel, Edvard Hansson — CC BY-SA 4.0" — Inter 400 13px/normal #3A3950 @(120,3197) 552×16
+  - TEXT "Colorful jazz concert (Unsplash) — Jens Thekkeveettil jensth — CC0" — Inter 400 13px/normal #3A3950 @(120,3221) 422×16
+  - TEXT "WiKi TubisTrio20100603a — Photograph Henryk Kotowski — CC BY 4.0" — Inter 400 13px/normal #3A3950 @(120,3245) 439×16
+  - TEXT "Drums (116880937) — Bernhard Hanakam — CC BY-SA 3.0" — Inter 400 13px/normal #3A3950 @(120,3269) 364×16
+  - TEXT "Wiki loves Music - Hamburg-5591 — Wuselig — CC BY-SA 4.0" — Inter 400 13px/normal #3A3950 @(120,3293) 381×16
+  - TEXT "Meshuggah Stage Design 2022, Ancienne Belgique, Belgium. 05 — Kinglevel — CC BY-SA 4.0" — Inter 400 13px/normal #3A3950 @(120,3317) 575×16

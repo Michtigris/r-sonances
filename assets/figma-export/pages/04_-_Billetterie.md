@@ -1,0 +1,140 @@
+# 04 · Billetterie
+
+Capture : `../screens/04_-_Billetterie.png` — largeur 1440px, hauteur 1868px.
+Coordonnées @(x,y) absolues dans la page, en px. Couleurs en hex. Polices : famille poids taille/interligne.
+
+- shape 1440×1868 @(0,0) fill:#FFFFFF
+- **l-header** [frame] 1440×88 @(0,0)
+  - shape 1440×88 @(0,0) fill:#FFFFFF
+  - shape 1440×1 @(0,87) fill:#E3E5EA
+  - **logo** [frame] 204×43 @(120,22)
+    - shape 36×36 @(120,26) fill:#C8402A radius:999 (pill/rond)
+    - shape 20×20 @(128,34) border:3px #FFFFFF radius:999 (pill/rond)
+    - TEXT "RÉSONANCES" — Inter 700 20px/normal #1C1B2E @(166,22) 139×24
+    - TEXT "Festival · 9 au 11 juillet 2027" — Inter 400 12px/normal #6B6A80 @(166,50) 158×15
+  - **nav** [frame] 474.9×31 @(520,36)
+    - TEXT "Accueil" — Inter 400 16px/normal #6B6A80 @(520,36) 55×19
+    - TEXT "Programme" — Inter 400 16px/normal #6B6A80 @(622.7,36) 88×19
+    - TEXT "Billetterie" — Inter 700 16px/normal #1C1B2E @(743.4,36) 76×19
+    - shape 98.6×3 @(743.4,64) fill:#C8402A radius:999 (pill/rond)
+    - TEXT "Infos pratiques" — Inter 400 16px/normal #6B6A80 @(881.9,36) 113×19
+  - **button button--outline theme-toggle** [frame] 150×48 @(1070,20)
+    - shape 150×48 @(1070,20) border:2px #1C1B2E radius:7px
+    - TEXT "Mode sombre" — Inter 700 16px/normal #1C1B2E align:center @(1091,34) 108×19
+  - **button button--primary** [frame] 84×48 @(1236,20)
+    - shape 84×48 @(1236,20) fill:#C8402A radius:6px
+    - TEXT "Réserver" — Inter 700 16px/normal #FFFFFF align:center @(1242.5,34) 71×19
+- **page-title** [frame] 1440×220 @(0,88)
+  - shape 1440×220 @(0,88) fill:#F4F5F7
+  - TEXT "Accueil / Billetterie" — Inter 400 14px/normal #6B6A80 @(120,138) 124×17
+  - TEXT "Billetterie" — Inter 700 40px/normal #1C1B2E @(120,172) 189×48
+  - TEXT "Choisissez votre formule, puis réservez en quelques minutes." — Inter 400 20px/normal #3A3950 @(120,236) 578×24
+- **pass** [frame] 384×460 @(120,372)
+  - shape 384×460 @(120,372) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - TEXT "Pass 1 jour" — Inter 700 20px/normal #1C1B2E @(152,416) 105×24
+  - TEXT "49 €" — Inter 700 40px/normal #C8402A @(152,460) 91×48
+  - TEXT "Accès à toutes les scènes le jour choisi" — Inter 400 14px/normal #6B6A80 @(152,522) 259×17
+  - shape 320×1 @(152,584) fill:#E3E5EA
+  - shape 14×10 @(152,613) border:2.5px #2F6B3A
+  - TEXT "Accès aux trois scènes" — Inter 400 15px/normal #3A3950 @(176,609) 163×18
+  - shape 14×10 @(152,645) border:2.5px #2F6B3A
+  - TEXT "Navette gratuite depuis la gare" — Inter 400 15px/normal #3A3950 @(176,641) 219×18
+  - shape 14×10 @(152,677) border:2.5px #2F6B3A
+  - TEXT "Bracelet nominatif" — Inter 400 15px/normal #3A3950 @(176,673) 129×18
+  - **button button--outline** [frame] 320×48 @(152,756)
+    - shape 320×48 @(152,756) border:2px #1C1B2E radius:7px
+    - TEXT "Choisir cette formule" — Inter 700 16px/normal #1C1B2E align:center @(229,770) 166×19
+- **pass pass--featured** [frame] 384×476 @(528,356)
+  - shape 384×460 @(528,372) fill:#1C1B2E radius:12px
+  - **pass__ribbon** [frame] 140×32 @(552,356)
+    - shape 140×32 @(552,356) fill:#F4C95D radius:999 (pill/rond)
+    - TEXT "Le plus choisi" — Inter 700 13px/normal #1C1B2E align:center @(578.5,364) 87×16
+  - TEXT "Pass 3 jours" — Inter 700 20px/normal #FFFFFF @(560,416) 119×24
+  - TEXT "119 €" — Inter 700 40px/normal #F4C95D @(560,460) 103×48
+  - TEXT "Le festival en entier, du vendredi au" — Inter 400 14px/normal #C9C7D6 @(560,522) 236×17
+  - TEXT "dimanche" — Inter 400 14px/normal #C9C7D6 @(560,544) 65×17
+  - shape 320×1 @(560,584) fill:#3A3950
+  - shape 14×10 @(560,613) border:2.5px #F4C95D
+  - TEXT "Accès aux trois scènes" — Inter 400 15px/normal #FFFFFF @(584,609) 163×18
+  - shape 14×10 @(560,645) border:2.5px #F4C95D
+  - TEXT "Navette gratuite depuis la gare" — Inter 400 15px/normal #FFFFFF @(584,641) 219×18
+  - shape 14×10 @(560,677) border:2.5px #F4C95D
+  - TEXT "Accès prioritaire au Kiosque" — Inter 400 15px/normal #FFFFFF @(584,673) 199×18
+  - shape 14×10 @(560,709) border:2.5px #F4C95D
+  - TEXT "Gobelet réutilisable offert" — Inter 400 15px/normal #FFFFFF @(584,705) 181×18
+  - **button button--primary** [frame] 320×48 @(560,756)
+    - shape 320×48 @(560,756) fill:#C8402A radius:6px
+    - TEXT "Choisir cette formule" — Inter 700 16px/normal #FFFFFF align:center @(637,770) 166×19
+- **pass** [frame] 384×460 @(936,372)
+  - shape 384×460 @(936,372) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - TEXT "Pass 3 jours + camping" — Inter 700 20px/normal #1C1B2E @(968,416) 227×24
+  - TEXT "159 €" — Inter 700 40px/normal #C8402A @(968,460) 109×48
+  - TEXT "Le festival et un emplacement au camping du" — Inter 400 14px/normal #6B6A80 @(968,522) 300×17
+  - TEXT "lac" — Inter 400 14px/normal #6B6A80 @(968,544) 20×17
+  - shape 320×1 @(968,584) fill:#E3E5EA
+  - shape 14×10 @(968,613) border:2.5px #2F6B3A
+  - TEXT "Tous les avantages du pass 3 jours" — Inter 400 15px/normal #3A3950 @(992,609) 248×18
+  - shape 14×10 @(968,645) border:2.5px #2F6B3A
+  - TEXT "Emplacement de camping" — Inter 400 15px/normal #3A3950 @(992,641) 184×18
+  - shape 14×10 @(968,677) border:2.5px #2F6B3A
+  - TEXT "Douches et consignes" — Inter 400 15px/normal #3A3950 @(992,673) 157×18
+  - **button button--outline** [frame] 320×48 @(968,756)
+    - shape 320×48 @(968,756) border:2px #1C1B2E radius:7px
+    - TEXT "Choisir cette formule" — Inter 700 16px/normal #1C1B2E align:center @(1045,770) 166×19
+- **booking-form** [frame] 1200×620 @(120,908)
+  - shape 1200×620 @(120,908) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - TEXT "Réserver" — Inter 700 28px/normal #1C1B2E @(168,944) 124×34
+  - TEXT "Les champs marqués d’un astérisque sont obligatoires." — Inter 400 14px/normal #6B6A80 @(168,990) 363×17
+  - **field** [frame] 540×76 @(168,1034)
+    - TEXT "Prénom *" — Inter 700 14px/normal #1C1B2E @(168,1034) 65×17
+    - shape 540×48 @(168,1062) fill:#FFFFFF border:1px #CBD0D8 radius:6px
+    - TEXT "Camille" — Inter 400 16px/normal #1C1B2E @(184,1076) 56×19
+  - **field** [frame] 540×76 @(732,1034)
+    - TEXT "Nom *" — Inter 700 14px/normal #1C1B2E @(732,1034) 43×17
+    - shape 540×48 @(732,1062) fill:#FFFFFF border:1px #CBD0D8 radius:6px
+    - TEXT "Durand" — Inter 400 16px/normal #1C1B2E @(748,1076) 56×19
+  - **field is-error** [frame] 540×101 @(168,1134)
+    - TEXT "E-mail *" — Inter 700 14px/normal #1C1B2E @(168,1134) 55×17
+    - shape 540×48 @(168,1162) fill:#FFFFFF border:2px #B3261E radius:6px
+    - TEXT "camille.durand@" — Inter 400 16px/normal #1C1B2E @(184,1176) 126×19
+    - TEXT "Adresse e-mail invalide." — Inter 400 13px/normal #B3261E @(168,1219) 147×16
+  - **field** [frame] 540×76 @(732,1134)
+    - TEXT "Téléphone" — Inter 700 14px/normal #1C1B2E @(732,1134) 73×17
+    - shape 540×48 @(732,1162) fill:#FFFFFF border:1px #CBD0D8 radius:6px
+    - TEXT "06 12 34 56 78" — Inter 400 16px/normal #1C1B2E @(748,1176) 115×19
+  - **field is-focused** [frame] 546×79 @(165,1246)
+    - TEXT "Formule *" — Inter 700 14px/normal #1C1B2E @(168,1246) 67×17
+    - shape 546×54 @(165,1271) border:3px #F2B8AC radius:9.5px
+    - shape 540×48 @(168,1274) fill:#FFFFFF border:2px #C8402A radius:6px
+    - TEXT "Pass 3 jours" — Inter 400 16px/normal #1C1B2E @(184,1288) 93×19
+    - shape 12×6 @(680,1294) border:2px #1C1B2E
+  - **field** [frame] 540×76 @(732,1246)
+    - TEXT "Nombre de pass *" — Inter 700 14px/normal #1C1B2E @(732,1246) 122×17
+    - shape 540×48 @(732,1274) fill:#FFFFFF border:1px #CBD0D8 radius:6px
+    - TEXT "2" — Inter 400 16px/normal #1C1B2E @(748,1288) 10×19
+    - shape 12×6 @(1244,1294) border:2px #1C1B2E
+  - **checkbox** [frame] 355×22 @(168,1368)
+    - shape 22×22 @(168,1368) fill:#C8402A radius:4px
+    - shape 12×9 @(173,1374) border:2.5px #FFFFFF
+    - TEXT "J’accepte les conditions générales de vente *" — Inter 400 15px/normal #3A3950 @(202,1370) 321×18
+  - TEXT "Total : 238 €" — Inter 700 20px/normal #1C1B2E @(168,1448) 122×24
+  - **button button--primary** [frame] 220×48 @(1052,1438)
+    - shape 220×48 @(1052,1438) fill:#C8402A radius:6px
+    - TEXT "Valider la réservation" — Inter 700 16px/normal #FFFFFF align:center @(1078.5,1452) 167×19
+- **l-footer** [frame] 1440×260 @(0,1608)
+  - shape 1440×260 @(0,1608) fill:#1C1B2E
+  - TEXT "RÉSONANCES" — Inter 700 20px/normal #FFFFFF @(120,1658) 139×24
+  - TEXT "Festival de musique au bord du lac des Aulnes. Trois" — Inter 400 14px/normal #C9C7D6 @(120,1698) 346×17
+  - TEXT "jours, trois scènes, une quarantaine d’artistes." — Inter 400 14px/normal #C9C7D6 @(120,1720) 303×17
+  - TEXT "Le festival" — Inter 700 14px/normal #FFFFFF @(640,1664) 71×17
+  - TEXT "Programme" — Inter 400 14px/normal #C9C7D6 @(640,1696) 77×17
+  - TEXT "Billetterie" — Inter 400 14px/normal #C9C7D6 @(640,1724) 63×17
+  - TEXT "Infos pratiques" — Inter 400 14px/normal #C9C7D6 @(640,1752) 99×17
+  - TEXT "Contact" — Inter 700 14px/normal #FFFFFF @(860,1664) 56×17
+  - TEXT "contact@resonances-festival.fr" — Inter 400 14px/normal #C9C7D6 @(860,1696) 208×17
+  - TEXT "04 00 00 00 00" — Inter 400 14px/normal #C9C7D6 @(860,1724) 104×17
+  - TEXT "Newsletter" — Inter 700 14px/normal #FFFFFF @(1120,1664) 76×17
+  - shape 200×44 @(1120,1698) fill:#2A2940 border:1px #4A4960 radius:6px
+  - TEXT "Votre e-mail" — Inter 400 14px/normal #8E8CA3 @(1136,1712) 81×17
+  - shape 1200×1 @(120,1808) fill:#3A3950
+  - TEXT "© 2027 Association Résonances · Mentions légales · Accessibilité · Crédits photos · Bibliothèque de composants" — Inter 400 12px/normal #8E8CA3 @(120,1828) 637×15

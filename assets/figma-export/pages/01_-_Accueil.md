@@ -1,0 +1,142 @@
+# 01 · Accueil
+
+Capture : `../screens/01_-_Accueil.png` — largeur 1440px, hauteur 2288px.
+Coordonnées @(x,y) absolues dans la page, en px. Couleurs en hex. Polices : famille poids taille/interligne.
+
+- shape 1440×2288 @(0,0) fill:#FFFFFF
+- **l-header** [frame] 1440×88 @(0,0)
+  - shape 1440×88 @(0,0) fill:#FFFFFF
+  - shape 1440×1 @(0,87) fill:#E3E5EA
+  - **logo** [frame] 204×43 @(120,22)
+    - shape 36×36 @(120,26) fill:#C8402A radius:999 (pill/rond)
+    - shape 20×20 @(128,34) border:3px #FFFFFF radius:999 (pill/rond)
+    - TEXT "RÉSONANCES" — Inter 700 20px/normal #1C1B2E @(166,22) 139×24
+    - TEXT "Festival · 9 au 11 juillet 2027" — Inter 400 12px/normal #6B6A80 @(166,50) 158×15
+  - **nav** [frame] 474.9×31 @(520,36)
+    - TEXT "Accueil" — Inter 700 16px/normal #1C1B2E @(520,36) 59×19
+    - shape 62.7×3 @(520,64) fill:#C8402A radius:999 (pill/rond)
+    - TEXT "Programme" — Inter 400 16px/normal #6B6A80 @(622.7,36) 88×19
+    - TEXT "Billetterie" — Inter 400 16px/normal #6B6A80 @(743.4,36) 72×19
+    - TEXT "Infos pratiques" — Inter 400 16px/normal #6B6A80 @(881.9,36) 113×19
+  - **button button--outline theme-toggle** [frame] 150×48 @(1070,20)
+    - shape 150×48 @(1070,20) border:2px #1C1B2E radius:7px
+    - TEXT "Mode sombre" — Inter 700 16px/normal #1C1B2E align:center @(1091,34) 108×19
+  - **button button--primary** [frame] 84×48 @(1236,20)
+    - shape 84×48 @(1236,20) fill:#C8402A radius:6px
+    - TEXT "Réserver" — Inter 700 16px/normal #FFFFFF align:center @(1242.5,34) 71×19
+- **hero** [frame] 1440×560 @(0,88)
+  - **hero__media** [frame] 1440×560 @(0,88)
+    - rounded_rectangle 1440×560 @(0,88) fill:image:hero.jpg
+  - shape 1440×560 @(0,88) fill:#1C1B2E α0.62
+  - TEXT "9, 10 ET 11 JUILLET 2027 · LAC DES AULNES" — Inter 700 14px/normal #F4C95D @(120,204) 299×17
+  - TEXT "Trois jours, trois scènes," — Inter 700 56px/normal #FFFFFF @(120,242) 669×68
+  - TEXT "un lac." — Inter 700 56px/normal #FFFFFF @(120,312) 180×68
+  - TEXT "Pop et rock au bord de l’eau, musiques électroniques" — Inter 400 20px/normal #FFFFFF @(120,408) 498×24
+  - TEXT "sous les arbres, jazz au kiosque : quarante artistes à" — Inter 400 20px/normal #FFFFFF @(120,440) 495×24
+  - TEXT "découvrir." — Inter 400 20px/normal #FFFFFF @(120,472) 94×24
+  - **button button--primary** [frame] 200×52 @(120,518)
+    - shape 200×52 @(120,518) fill:#C8402A radius:6px
+    - TEXT "Réserver mon pass" — Inter 700 16px/normal #FFFFFF align:center @(145,534) 150×19
+  - **button button--ghostLight** [frame] 200×52 @(336,518)
+    - shape 200×52 @(336,518) border:2px #FFFFFF radius:7px
+    - TEXT "Voir le programme" — Inter 700 16px/normal #FFFFFF align:center @(364,534) 144×19
+- **intro** [frame] 1220×190 @(120,708)
+  - TEXT "Le festival" — Inter 700 40px/normal #1C1B2E @(120,708) 201×48
+  - TEXT "Depuis 2015, Résonances réunit chaque été les publics de toutes" — Inter 400 16px/normal #3A3950 @(120,782) 492×19
+  - TEXT "les musiques sur les rives du lac des Aulnes. Une programmation" — Inter 400 16px/normal #3A3950 @(120,808) 490×19
+  - TEXT "exigeante, des scènes à taille humaine et un site entièrement" — Inter 400 16px/normal #3A3950 @(120,834) 461×19
+  - TEXT "accessible à pied." — Inter 400 16px/normal #3A3950 @(120,860) 135×19
+  - **stat** [frame] 180×180 @(760,718)
+    - shape 180×180 @(760,718) fill:#F4F5F7 radius:12px
+    - TEXT "40" — Inter 700 56px/normal #C8402A align:center @(811.5,752) 77×68
+    - TEXT "artistes" — Inter 400 16px/normal #6B6A80 align:center @(821.5,832) 57×19
+  - **stat** [frame] 180×180 @(960,718)
+    - shape 180×180 @(960,718) fill:#F4F5F7 radius:12px
+    - TEXT "3" — Inter 700 56px/normal #C8402A align:center @(1031.5,752) 37×68
+    - TEXT "scènes" — Inter 400 16px/normal #6B6A80 align:center @(1023,832) 54×19
+  - **stat** [frame] 180×180 @(1160,718)
+    - shape 180×180 @(1160,718) fill:#F4F5F7 radius:12px
+    - TEXT "3" — Inter 700 56px/normal #C8402A align:center @(1231.5,752) 37×68
+    - TEXT "jours" — Inter 400 16px/normal #6B6A80 align:center @(1231.5,832) 37×19
+- **headliners** [frame] 1200×560 @(120,988)
+  - TEXT "Têtes d’affiche" — Inter 700 40px/normal #1C1B2E @(120,988) 288×48
+  - TEXT "Tout le programme →" — Inter 700 16px/normal #C8402A align:right @(1153,1012) 167×19
+  - **card card--headliner theme-lake** [frame] 384×480 @(120,1068)
+    - shape 384×480 @(120,1068) fill:#FFFFFF border:1px #E3E5EA radius:12px
+    - **card__media** [frame] 384×300 @(120,1068)
+      - **Clip path group** [frame] 384×300 @(120,1068)
+        - **clip3** [frame] 384×300 @(120,1068)
+          - shape 384×300 @(120,1068) fill:#000000 radius:12px
+        - rounded_rectangle 384×300 @(120,1068) fill:image:lune-rousse.jpg
+    - shape 384×6 @(120,1368) fill:#1F4E8C
+    - **badge badge--lake** [frame] 118×26 @(140,1392)
+      - shape 118×26 @(140,1392) fill:#1F4E8C radius:999 (pill/rond)
+      - TEXT "Scène du Lac" — Inter 700 13px/normal #FFFFFF align:center @(156.5,1397) 85×16
+    - TEXT "LUNE ROUSSE" — Inter 700 28px/normal #1C1B2E @(140,1424) 196×34
+    - TEXT "Pop · Ven. 9 · 22 h 30" — Inter 400 14px/normal #6B6A80 @(140,1468) 142×17
+    - **card__link** [frame] 98×17 @(140,1510)
+      - TEXT "Voir la fiche →" — Inter 700 14px/normal #C8402A @(140,1510) 98×17
+  - **card card--headliner theme-forest** [frame] 384×480 @(528,1068)
+    - shape 384×480 @(528,1068) fill:#FFFFFF border:1px #E3E5EA radius:12px
+    - **card__media** [frame] 384×300 @(528,1068)
+      - **Clip path group** [frame] 384×300 @(528,1068)
+        - **clip4** [frame] 384×300 @(528,1068)
+          - shape 384×300 @(528,1068) fill:#000000 radius:12px
+        - rounded_rectangle 384×300 @(528,1068) fill:image:ostra.jpg
+    - shape 384×6 @(528,1368) fill:#2F6B3A
+    - **badge badge--forest** [frame] 157×26 @(548,1392)
+      - shape 157×26 @(548,1392) fill:#2F6B3A radius:999 (pill/rond)
+      - TEXT "Scène de la Forêt" — Inter 700 13px/normal #FFFFFF align:center @(572,1397) 109×16
+    - TEXT "OSTRA" — Inter 700 28px/normal #1C1B2E @(548,1424) 99×34
+    - TEXT "Électro · Sam. 10 · 23 h 45" — Inter 400 14px/normal #6B6A80 @(548,1468) 173×17
+    - **card__link** [frame] 98×17 @(548,1510)
+      - TEXT "Voir la fiche →" — Inter 700 14px/normal #C8402A @(548,1510) 98×17
+  - **card card--headliner theme-kiosk** [frame] 384×480 @(936,1068)
+    - shape 384×480 @(936,1068) fill:#FFFFFF border:1px #E3E5EA radius:12px
+    - **card__media** [frame] 384×300 @(936,1068)
+      - **Clip path group** [frame] 384×300 @(936,1068)
+        - **clip5** [frame] 384×300 @(936,1068)
+          - shape 384×300 @(936,1068) fill:#000000 radius:12px
+        - rounded_rectangle 384×300 @(936,1068) fill:image:trio-sablier.jpg
+    - shape 384×6 @(936,1368) fill:#B87A1E
+    - **badge badge--kiosk** [frame] 102×26 @(956,1392)
+      - shape 102×26 @(956,1392) fill:#B87A1E radius:999 (pill/rond)
+      - TEXT "Le Kiosque" — Inter 700 13px/normal #1C1B2E align:center @(971.5,1397) 71×16
+    - TEXT "TRIO SABLIER" — Inter 700 28px/normal #1C1B2E @(956,1424) 190×34
+    - TEXT "Jazz · Dim. 11 · 19 h 00" — Inter 400 14px/normal #6B6A80 @(956,1468) 150×17
+    - **card__link** [frame] 98×17 @(956,1510)
+      - TEXT "Voir la fiche →" — Inter 700 14px/normal #C8402A @(956,1510) 98×17
+- **scenes** [frame] 1200×300 @(120,1628)
+  - TEXT "Les scènes" — Inter 700 40px/normal #1C1B2E @(120,1628) 220×48
+  - **scene-banner theme-lake** [frame] 384×220 @(120,1708)
+    - shape 384×220 @(120,1708) fill:#1F4E8C radius:12px
+    - TEXT "Scène du Lac" — Inter 700 28px/normal #FFFFFF @(148,1790) 183×34
+    - TEXT "Pop et rock" — Inter 400 16px/normal #FFFFFF @(148,1834) 87×19
+    - TEXT "Découvrir la scène →" — Inter 700 14px/normal #FFFFFF @(148,1884) 145×17
+  - **scene-banner theme-forest** [frame] 384×220 @(528,1708)
+    - shape 384×220 @(528,1708) fill:#2F6B3A radius:12px
+    - TEXT "Scène de la Forêt" — Inter 700 28px/normal #FFFFFF @(556,1790) 235×34
+    - TEXT "Musiques électroniques" — Inter 400 16px/normal #FFFFFF @(556,1834) 180×19
+    - TEXT "Découvrir la scène →" — Inter 700 14px/normal #FFFFFF @(556,1884) 145×17
+  - **scene-banner theme-kiosk** [frame] 384×220 @(936,1708)
+    - shape 384×220 @(936,1708) fill:#B87A1E radius:12px
+    - TEXT "Le Kiosque" — Inter 700 28px/normal #1C1B2E @(964,1790) 152×34
+    - TEXT "Jazz et acoustique" — Inter 400 16px/normal #1C1B2E @(964,1834) 143×19
+    - TEXT "Découvrir la scène →" — Inter 700 14px/normal #1C1B2E @(964,1884) 145×17
+- **l-footer** [frame] 1440×260 @(0,2028)
+  - shape 1440×260 @(0,2028) fill:#1C1B2E
+  - TEXT "RÉSONANCES" — Inter 700 20px/normal #FFFFFF @(120,2078) 139×24
+  - TEXT "Festival de musique au bord du lac des Aulnes. Trois" — Inter 400 14px/normal #C9C7D6 @(120,2118) 346×17
+  - TEXT "jours, trois scènes, une quarantaine d’artistes." — Inter 400 14px/normal #C9C7D6 @(120,2140) 303×17
+  - TEXT "Le festival" — Inter 700 14px/normal #FFFFFF @(640,2084) 71×17
+  - TEXT "Programme" — Inter 400 14px/normal #C9C7D6 @(640,2116) 77×17
+  - TEXT "Billetterie" — Inter 400 14px/normal #C9C7D6 @(640,2144) 63×17
+  - TEXT "Infos pratiques" — Inter 400 14px/normal #C9C7D6 @(640,2172) 99×17
+  - TEXT "Contact" — Inter 700 14px/normal #FFFFFF @(860,2084) 56×17
+  - TEXT "contact@resonances-festival.fr" — Inter 400 14px/normal #C9C7D6 @(860,2116) 208×17
+  - TEXT "04 00 00 00 00" — Inter 400 14px/normal #C9C7D6 @(860,2144) 104×17
+  - TEXT "Newsletter" — Inter 700 14px/normal #FFFFFF @(1120,2084) 76×17
+  - shape 200×44 @(1120,2118) fill:#2A2940 border:1px #4A4960 radius:6px
+  - TEXT "Votre e-mail" — Inter 400 14px/normal #8E8CA3 @(1136,2132) 81×17
+  - shape 1200×1 @(120,2228) fill:#3A3950
+  - TEXT "© 2027 Association Résonances · Mentions légales · Accessibilité · Crédits photos · Bibliothèque de composants" — Inter 400 12px/normal #8E8CA3 @(120,2248) 637×15

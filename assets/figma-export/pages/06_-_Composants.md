@@ -1,0 +1,494 @@
+# 06 · Composants
+
+Capture : `../screens/06_-_Composants.png` — largeur 1440px, hauteur 5452px.
+Coordonnées @(x,y) absolues dans la page, en px. Couleurs en hex. Polices : famille poids taille/interligne.
+
+- shape 1440×5452 @(0,0) fill:#FFFFFF
+- **l-header** [frame] 1440×88 @(0,0)
+  - shape 1440×88 @(0,0) fill:#FFFFFF
+  - shape 1440×1 @(0,87) fill:#E3E5EA
+  - **logo** [frame] 204×43 @(120,22)
+    - shape 36×36 @(120,26) fill:#C8402A radius:999 (pill/rond)
+    - shape 20×20 @(128,34) border:3px #FFFFFF radius:999 (pill/rond)
+    - TEXT "RÉSONANCES" — Inter 700 20px/normal #1C1B2E @(166,22) 139×24
+    - TEXT "Festival · 9 au 11 juillet 2027" — Inter 400 12px/normal #6B6A80 @(166,50) 158×15
+  - **nav** [frame] 474.9×19 @(520,36)
+    - TEXT "Accueil" — Inter 400 16px/normal #6B6A80 @(520,36) 55×19
+    - TEXT "Programme" — Inter 400 16px/normal #6B6A80 @(622.7,36) 88×19
+    - TEXT "Billetterie" — Inter 400 16px/normal #6B6A80 @(743.4,36) 72×19
+    - TEXT "Infos pratiques" — Inter 400 16px/normal #6B6A80 @(881.9,36) 113×19
+  - **button button--outline theme-toggle** [frame] 150×48 @(1070,20)
+    - shape 150×48 @(1070,20) border:2px #1C1B2E radius:7px
+    - TEXT "Mode sombre" — Inter 700 16px/normal #1C1B2E align:center @(1091,34) 108×19
+  - **button button--primary** [frame] 84×48 @(1236,20)
+    - shape 84×48 @(1236,20) fill:#C8402A radius:6px
+    - TEXT "Réserver" — Inter 700 16px/normal #FFFFFF align:center @(1242.5,34) 71×19
+- **Titre de page** [frame] 1440×220 @(0,88)
+  - shape 1440×220 @(0,88) fill:#F4F5F7
+  - TEXT "Accueil / Bibliothèque de composants" — Inter 400 14px/normal #6B6A80 @(120,138) 250×17
+  - TEXT "Bibliothèque de composants" — Inter 700 40px/normal #1C1B2E @(120,172) 559×48
+  - TEXT "Tous les composants du site, avec leurs variantes et leurs états." — Inter 400 20px/normal #3A3950 @(120,236) 603×24
+- **Sommaire** [frame] 1200×40 @(120,345)
+  - TEXT "Jetons" — Inter 700 15px/normal #C8402A @(120,345) 51×18
+  - TEXT "Boutons" — Inter 700 15px/normal #C8402A @(206,345) 62×18
+  - TEXT "Badges" — Inter 700 15px/normal #C8402A @(301,345) 56×18
+  - TEXT "Cartes" — Inter 700 15px/normal #C8402A @(387,345) 50×18
+  - TEXT "Formulaires" — Inter 700 15px/normal #C8402A @(473,345) 87×18
+  - TEXT "Filtres" — Inter 700 15px/normal #C8402A @(604,345) 46×18
+  - TEXT "Questions fréquentes" — Inter 700 15px/normal #C8402A @(699,345) 160×18
+  - shape 1200×1 @(120,384) fill:#E3E5EA
+- **En-tête de section · Jetons** [frame] 1200×87 @(120,436)
+  - TEXT "Jetons" — Inter 700 28px/normal #1C1B2E @(120,436) 94×34
+  - shape 1200×2 @(120,484) fill:#C8402A
+  - TEXT "Couleurs, typographie et espacements utilisés par tous les composants." — Inter 400 16px/normal #6B6A80 @(120,504) 544×19
+- **Ligne · Couleurs** [frame] 1136×75 @(120,558)
+  - TEXT "Couleurs" — Inter 700 15px/normal #1C1B2E @(120,591) 67×18
+  - **Couleur · Texte principal** [frame] 83×75 @(360,558)
+    - shape 48×48 @(360,558) fill:#1C1B2E border:1px #E3E5EA radius:999 (pill/rond)
+    - TEXT "Texte principal" — Inter 400 12px/normal #6B6A80 @(360,618) 83×15
+  - **Couleur · Texte courant** [frame] 79×75 @(466,558)
+    - shape 48×48 @(466,558) fill:#3A3950 border:1px #E3E5EA radius:999 (pill/rond)
+    - TEXT "Texte courant" — Inter 400 12px/normal #6B6A80 @(466,618) 79×15
+  - **Couleur · Texte secondaire** [frame] 98×75 @(572,558)
+    - shape 48×48 @(572,558) fill:#6B6A80 border:1px #E3E5EA radius:999 (pill/rond)
+    - TEXT "Texte secondaire" — Inter 400 12px/normal #6B6A80 @(572,618) 98×15
+  - **Couleur · Fond alterné** [frame] 71×75 @(678,558)
+    - shape 48×48 @(678,558) fill:#F4F5F7 border:1px #E3E5EA radius:999 (pill/rond)
+    - TEXT "Fond alterné" — Inter 400 12px/normal #6B6A80 @(678,618) 71×15
+  - **Couleur · Bordures** [frame] 52×75 @(784,558)
+    - shape 48×48 @(784,558) fill:#E3E5EA border:1px #E3E5EA radius:999 (pill/rond)
+    - TEXT "Bordures" — Inter 400 12px/normal #6B6A80 @(784,618) 52×15
+  - **Couleur · Principale** [frame] 56×75 @(890,558)
+    - shape 48×48 @(890,558) fill:#C8402A border:1px #E3E5EA radius:999 (pill/rond)
+    - TEXT "Principale" — Inter 400 12px/normal #6B6A80 @(890,618) 56×15
+  - **Couleur · Survol** [frame] 48×75 @(996,558)
+    - shape 48×48 @(996,558) fill:#A3311F border:1px #E3E5EA radius:999 (pill/rond)
+    - TEXT "Survol" — Inter 400 12px/normal #6B6A80 @(996,618) 36×15
+  - **Couleur · Accent** [frame] 48×75 @(1102,558)
+    - shape 48×48 @(1102,558) fill:#F4C95D border:1px #E3E5EA radius:999 (pill/rond)
+    - TEXT "Accent" — Inter 400 12px/normal #6B6A80 @(1102,618) 40×15
+  - **Couleur · Erreur** [frame] 48×75 @(1208,558)
+    - shape 48×48 @(1208,558) fill:#B3261E border:1px #E3E5EA radius:999 (pill/rond)
+    - TEXT "Erreur" — Inter 400 12px/normal #6B6A80 @(1208,618) 35×15
+- **Ligne · Scènes** [frame] 820×79 @(120,666)
+  - TEXT "Scènes" — Inter 700 15px/normal #1C1B2E @(120,699) 55×18
+  - **Scène · Scène du Lac** [frame] 180×79 @(360,666)
+    - shape 180×52 @(360,666) fill:#1F4E8C radius:8px
+    - TEXT "Scène du Lac" — Inter 700 14px/normal #FFFFFF @(376,684) 92×17
+    - TEXT "#1F4E8C" — Inter 400 12px/normal #6B6A80 @(360,730) 52×15
+  - **Scène · Scène de la Forêt** [frame] 180×79 @(560,666)
+    - shape 180×52 @(560,666) fill:#2F6B3A radius:8px
+    - TEXT "Scène de la Forêt" — Inter 700 14px/normal #FFFFFF @(576,684) 118×17
+    - TEXT "#2F6B3A" — Inter 400 12px/normal #6B6A80 @(560,730) 53×15
+  - **Scène · Le Kiosque** [frame] 180×79 @(760,666)
+    - shape 180×52 @(760,666) fill:#B87A1E radius:8px
+    - TEXT "Le Kiosque" — Inter 700 14px/normal #1C1B2E @(776,684) 76×17
+    - TEXT "#B87A1E" — Inter 400 12px/normal #6B6A80 @(760,730) 49×15
+- **Ligne · Typographie** [frame] 1050×48 @(120,774)
+  - TEXT "Typographie" — Inter 700 15px/normal #1C1B2E @(120,797) 93×18
+  - TEXT "Titre 40" — Inter 700 40px/normal #1C1B2E @(360,774) 157×48
+  - TEXT "Sous-titre 28" — Inter 700 28px/normal #1C1B2E @(560,786) 182×34
+  - TEXT "Introduction 20" — Inter 400 20px/normal #3A3950 @(800,794) 145×24
+  - TEXT "Courant 16" — Inter 400 16px/normal #3A3950 @(990,798) 83×19
+  - TEXT "Petit 14" — Inter 400 14px/normal #6B6A80 @(1120,800) 50×17
+- **Ligne · Espacements** [frame] 825×65 @(120,862)
+  - TEXT "Espacements" — Inter 700 15px/normal #1C1B2E @(120,885) 100×18
+  - **Espace 8** [frame] 41×15 @(360,912)
+    - shape 8×8 @(360,918) fill:#C8402A
+    - TEXT "8 px" — Inter 400 12px/normal #6B6A80 @(376,912) 25×15
+  - **Espace 16** [frame] 54×17 @(480,910)
+    - shape 16×16 @(480,910) fill:#C8402A
+    - TEXT "16 px" — Inter 400 12px/normal #6B6A80 @(504,912) 30×15
+  - **Espace 24** [frame] 64×25 @(600,902)
+    - shape 24×24 @(600,902) fill:#C8402A
+    - TEXT "24 px" — Inter 400 12px/normal #6B6A80 @(632,912) 32×15
+  - **Espace 40** [frame] 81×41 @(720,886)
+    - shape 40×40 @(720,886) fill:#C8402A
+    - TEXT "40 px" — Inter 400 12px/normal #6B6A80 @(768,912) 33×15
+  - **Espace 64** [frame] 105×65 @(840,862)
+    - shape 64×64 @(840,862) fill:#C8402A
+    - TEXT "64 px" — Inter 400 12px/normal #6B6A80 @(912,912) 33×15
+- **En-tête de section · Boutons** [frame] 1200×87 @(120,978)
+  - TEXT "Boutons" — Inter 700 28px/normal #1C1B2E @(120,978) 115×34
+  - shape 1200×2 @(120,1026) fill:#C8402A
+  - TEXT "Un composant de base, des variantes de couleur et de taille, une icône facultative et des états." — Inter 400 16px/normal #6B6A80 @(120,1046) 718×19
+- **Ligne · Bouton de base** [frame] 365×48 @(120,1100)
+  - TEXT "Bouton de base" — Inter 700 15px/normal #1C1B2E @(120,1115) 114×18
+  - **Bouton · principal** [frame] 125×48 @(360,1100)
+    - shape 125×48 @(360,1100) fill:#C8402A radius:6px
+    - TEXT "Réserver" — Inter 700 16px/normal #FFFFFF @(384.1,1113.8) 71×19
+- **Ligne · Couleurs** [frame] 960×80 @(120,1172)
+  - TEXT "Couleurs" — Inter 700 15px/normal #1C1B2E @(120,1203) 67×18
+  - **Bouton · principal** [frame] 134×48 @(360,1188)
+    - shape 134×48 @(360,1188) fill:#C8402A radius:6px
+    - TEXT "Principal" — Inter 700 16px/normal #FFFFFF @(383.8,1201.8) 69×19
+  - **Bouton · secondaire** [frame] 144×48 @(510,1188)
+    - shape 144×48 @(510,1188) fill:#1C1B2E radius:6px
+    - TEXT "Secondaire" — Inter 700 16px/normal #FFFFFF @(534,1201.8) 89×19
+  - **Bouton · contour** [frame] 115×48 @(680,1188)
+    - shape 115×48 @(680,1188) border:2px #1C1B2E radius:7px
+    - TEXT "Contour" — Inter 700 16px/normal #1C1B2E @(703.9,1201.8) 65×19
+  - **Fond sombre** [frame] 250×80 @(830,1172)
+    - shape 250×80 @(830,1172) fill:#1C1B2E radius:8px
+    - **Bouton · clair** [frame] 170×48 @(870,1188)
+      - shape 170×48 @(870,1188) fill:#FFFFFF radius:6px
+      - TEXT "Clair" — Inter 700 16px/normal #1C1B2E @(931,1201.8) 37×19
+- **Ligne · Tailles** [frame] 588×56 @(120,1276)
+  - TEXT "Tailles" — Inter 700 15px/normal #1C1B2E @(120,1295) 48×18
+  - **Bouton · principal** [frame] 74×36 @(360,1286)
+    - shape 74×36 @(360,1286) fill:#C8402A radius:6px
+    - TEXT "Petit" — Inter 700 14px/normal #FFFFFF @(376,1295) 33×17
+  - **Bouton · principal** [frame] 96×48 @(460,1280)
+    - shape 96×48 @(460,1280) fill:#C8402A radius:6px
+    - TEXT "Moyen" — Inter 700 16px/normal #FFFFFF @(484,1293.8) 53×19
+  - **Bouton · principal** [frame] 118×56 @(590,1276)
+    - shape 118×56 @(590,1276) fill:#C8402A radius:6px
+    - TEXT "Grand" — Inter 700 18px/normal #FFFFFF @(622,1292.5) 54×22
+- **Ligne · Avec icône** [frame] 945×48 @(120,1360)
+  - TEXT "Avec icône" — Inter 700 15px/normal #1C1B2E @(120,1375) 81×18
+  - **Bouton · principal** [frame] 264×48 @(360,1360)
+    - shape 264×48 @(360,1360) fill:#C8402A radius:6px
+    - shape 12×12 @(386,1378) border:2.2px #FFFFFF radius:1.1px
+    - TEXT "Ajouter au programme" — Inter 700 16px/normal #FFFFFF @(408,1373.8) 176×19
+  - **Bouton · secondaire** [frame] 149×48 @(670,1360)
+    - shape 149×48 @(670,1360) fill:#1C1B2E radius:6px
+    - shape 14×10 @(695.1,1380) border:1.8px #FFFFFF radius:0.9px
+    - TEXT "Réserver" — Inter 700 16px/normal #FFFFFF @(718.1,1373.8) 71×19
+  - **Bouton · icône seule** [frame] 48×48 @(870,1360)
+    - shape 48×48 @(870,1360) border:2px #1C1B2E radius:7px
+    - shape 12.3×10.9 @(887.8,1379.1) border:1.8px #1C1B2E radius:1.7px
+  - **Bouton · contour** [frame] 115×36 @(950,1366)
+    - shape 115×36 @(950,1366) border:2px #1C1B2E radius:7px
+    - shape 11×8 @(968.1,1380) border:2px #1C1B2E radius:1px
+    - TEXT "Suivant" — Inter 700 14px/normal #1C1B2E @(990.1,1375) 52×17
+- **Ligne · Combinaisons et états** [frame] 1160×79 @(120,1444)
+  - TEXT "Combinaisons et états" — Inter 700 15px/normal #1C1B2E @(120,1463) 165×18
+  - **Bouton · secondaire** [frame] 237×56 @(360,1444)
+    - shape 237×56 @(360,1444) fill:#1C1B2E radius:6px
+    - TEXT "Secondaire grand" — Inter 700 18px/normal #FFFFFF @(392.1,1460.5) 156×22
+  - TEXT "Combinaison" — Inter 400 12px/normal #6B6A80 @(360,1508) 74×15
+  - **Bouton · survol** [frame] 106×48 @(640,1448)
+    - shape 106×48 @(640,1448) fill:#A3311F radius:6px
+    - TEXT "Survol" — Inter 700 16px/normal #FFFFFF @(664.2,1461.8) 51×19
+  - TEXT "Survol" — Inter 400 12px/normal #6B6A80 @(640,1508) 36×15
+  - **Bouton · principal** [frame] 181×56 @(776,1444)
+    - shape 181×56 @(776,1444) border:3px #F2B8AC radius:10.5px
+    - shape 173×48 @(780,1448) fill:#C8402A radius:6px
+    - TEXT "Focus clavier" — Inter 700 16px/normal #FFFFFF @(804.1,1461.8) 104×19
+  - TEXT "Focus clavier" — Inter 400 12px/normal #6B6A80 @(780,1508) 75×15
+  - **Bouton · désactivé** [frame] 134×48 @(970,1448) opacity:0.4
+    - shape 134×48 @(970,1448) fill:#C8402A radius:6px
+    - TEXT "Désactivé" — Inter 700 16px/normal #FFFFFF @(993.8,1461.8) 79×19
+  - TEXT "Désactivé" — Inter 400 12px/normal #6B6A80 @(970,1508) 56×15
+  - **Bouton · chargement** [frame] 150×48 @(1130,1448)
+    - shape 150×48 @(1130,1448) fill:#C8402A radius:6px
+    - shape 18×18 @(1196,1463) border:2.5px #FFFFFF α0.35 radius:999 (pill/rond)
+    - shape 9×9 @(1205,1463) border:2.5px #FFFFFF radius:3px
+  - TEXT "Chargement" — Inter 400 12px/normal #6B6A80 @(1130,1508) 70×15
+- **En-tête de section · Badges** [frame] 1200×87 @(120,1576)
+  - TEXT "Badges" — Inter 700 28px/normal #1C1B2E @(120,1576) 103×34
+  - shape 1200×2 @(120,1624) fill:#C8402A
+  - TEXT "Pour signaler une scène, un statut ou un nombre." — Inter 400 16px/normal #6B6A80 @(120,1644) 371×19
+- **Ligne · Badge de base** [frame] 296×24 @(120,1702)
+  - TEXT "Badge de base" — Inter 700 15px/normal #1C1B2E @(120,1705) 108×18
+  - **Badge · Badge** [frame] 56×24 @(360,1702)
+    - shape 56×24 @(360,1702) fill:#F4F5F7 radius:999 (pill/rond)
+    - TEXT "Badge" — Inter 700 12px/normal #1C1B2E align:center @(369,1706.3) 38×15
+- **Ligne · Scènes** [frame] 622×24 @(120,1758)
+  - TEXT "Scènes" — Inter 700 15px/normal #1C1B2E @(120,1761) 55×18
+  - **Badge · Scène du Lac** [frame] 106×24 @(360,1758)
+    - shape 106×24 @(360,1758) fill:#1F4E8C radius:999 (pill/rond)
+    - TEXT "Scène du Lac" — Inter 700 12px/normal #FFFFFF align:center @(373.5,1762.3) 79×15
+  - **Badge · Scène de la Forêt** [frame] 142×24 @(490,1758)
+    - shape 142×24 @(490,1758) fill:#2F6B3A radius:999 (pill/rond)
+    - TEXT "Scène de la Forêt" — Inter 700 12px/normal #FFFFFF align:center @(510.5,1762.3) 101×15
+  - **Badge · Le Kiosque** [frame] 92×24 @(650,1758)
+    - shape 92×24 @(650,1758) fill:#B87A1E radius:999 (pill/rond)
+    - TEXT "Le Kiosque" — Inter 700 12px/normal #1C1B2E align:center @(663,1762.3) 66×15
+- **Ligne · Statuts** [frame] 570×24 @(120,1814)
+  - TEXT "Statuts" — Inter 700 15px/normal #1C1B2E @(120,1817) 54×18
+  - **Badge · Nouveau** [frame] 70×24 @(360,1814)
+    - shape 70×24 @(360,1814) fill:#E3F1E6 radius:999 (pill/rond)
+    - TEXT "Nouveau" — Inter 700 12px/normal #2F6B3A align:center @(368.5,1818.3) 53×15
+  - **Badge · Dernières places** [frame] 135×24 @(460,1814)
+    - shape 135×24 @(460,1814) fill:#FDF1D6 radius:999 (pill/rond)
+    - TEXT "Dernières places" — Inter 700 12px/normal #7A4F00 align:center @(478,1818.3) 99×15
+  - **Badge · Complet** [frame] 70×24 @(620,1814)
+    - shape 70×24 @(620,1814) fill:#FBE3E1 radius:999 (pill/rond)
+    - TEXT "Complet" — Inter 700 12px/normal #B3261E align:center @(629.5,1818.3) 51×15
+- **Ligne · Tailles** [frame] 393×32 @(120,1866)
+  - TEXT "Tailles" — Inter 700 15px/normal #1C1B2E @(120,1873) 48×18
+  - **Badge · Petit** [frame] 56×24 @(360,1874)
+    - shape 56×24 @(360,1874) fill:#1F4E8C radius:999 (pill/rond)
+    - TEXT "Petit" — Inter 700 12px/normal #FFFFFF align:center @(374,1878.3) 28×15
+  - **Badge · Grand** [frame] 73×32 @(440,1866)
+    - shape 73×32 @(440,1866) fill:#1F4E8C radius:999 (pill/rond)
+    - TEXT "Grand" — Inter 700 15px/normal #FFFFFF align:center @(454,1872.4) 45×18
+- **Ligne · Styles** [frame] 584×24 @(120,1926)
+  - TEXT "Styles" — Inter 700 15px/normal #1C1B2E @(120,1929) 46×18
+  - **Badge · Plein arrondi** [frame] 114×24 @(360,1926)
+    - shape 114×24 @(360,1926) fill:#2F6B3A radius:999 (pill/rond)
+    - TEXT "Plein arrondi" — Inter 700 12px/normal #FFFFFF align:center @(380,1930.3) 74×15
+  - **Badge · Contour** [frame] 70×24 @(490,1926)
+    - shape 70×24 @(490,1926) fill:#FFFFFF border:1.5px #2F6B3A radius:999 (pill/rond)
+    - TEXT "Contour" — Inter 700 12px/normal #2F6B3A align:center @(500.5,1930.3) 49×15
+  - **Badge · Angles droits** [frame] 114×24 @(590,1926)
+    - shape 114×24 @(590,1926) fill:#B87A1E radius:4px
+    - TEXT "Angles droits" — Inter 700 12px/normal #1C1B2E align:center @(607.5,1930.3) 79×15
+- **Ligne · Compteur** [frame] 449×58 @(120,1974)
+  - TEXT "Compteur" — Inter 700 15px/normal #1C1B2E @(120,1997) 74×18
+  - **Bouton avec compteur** [frame] 209×58 @(360,1974)
+    - **Bouton · secondaire** [frame] 197×48 @(360,1984)
+      - shape 197×48 @(360,1984) fill:#1C1B2E radius:6px
+      - shape 12.3×10.9 @(385.9,2003.1) border:1.8px #FFFFFF radius:1.7px
+      - TEXT "Mon programme" — Inter 700 16px/normal #FFFFFF @(408.1,1997.8) 129×19
+    - shape 24×24 @(545,1974) fill:#C8402A border:2px #FFFFFF radius:999 (pill/rond)
+    - TEXT "3" — Inter 700 12px/normal #FFFFFF align:center @(553,1979) 8×15
+- **En-tête de section · Cartes** [frame] 1200×87 @(120,2102)
+  - TEXT "Cartes" — Inter 700 28px/normal #1C1B2E @(120,2102) 93×34
+  - shape 1200×2 @(120,2150) fill:#C8402A
+  - TEXT "La carte d’artiste, ses variantes, et les autres cartes du site." — Inter 400 16px/normal #6B6A80 @(120,2170) 450×19
+- TEXT "Carte de base" — Inter 700 15px/normal #1C1B2E @(120,2219) 103×18
+- **Carte · base** [frame] 360×366 @(120,2252)
+  - shape 360×366 @(120,2252) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - **Image** [frame] 360×200 @(120,2252)
+    - **Clip path group** [frame] 360×200 @(120,2252)
+      - **cp901** [frame] 360×200 @(120,2252)
+        - shape 360×200 @(120,2252) fill:#000000 radius:12px
+      - rounded_rectangle 360×200 @(120,2252) fill:image:maree-basse.jpg
+  - shape 360×6 @(120,2452) fill:#1F4E8C
+  - **Badge · Scène du Lac** [frame] 106×24 @(140,2478)
+    - shape 106×24 @(140,2478) fill:#1F4E8C radius:999 (pill/rond)
+    - TEXT "Scène du Lac" — Inter 700 12px/normal #FFFFFF align:center @(153.5,2482.3) 79×15
+  - TEXT "Marée Basse" — Inter 700 20px/normal #1C1B2E @(140,2518) 126×24
+  - TEXT "Rock · Ven. 9 · 20 h 15" — Inter 400 14px/normal #6B6A80 @(140,2550) 147×17
+  - TEXT "Voir la fiche →" — Inter 700 14px/normal #C8402A @(140,2580) 98×17
+- **Carte · sans image** [frame] 360×166 @(504,2252)
+  - shape 360×166 @(504,2252) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - shape 360×12 @(504,2252) fill:#B87A1E radius:999 (pill/rond)
+  - **Badge · Le Kiosque** [frame] 92×24 @(524,2278)
+    - shape 92×24 @(524,2278) fill:#B87A1E radius:999 (pill/rond)
+    - TEXT "Le Kiosque" — Inter 700 12px/normal #1C1B2E align:center @(537,2282.3) 66×15
+  - TEXT "Clara Ninon Quartet" — Inter 700 20px/normal #1C1B2E @(524,2318) 194×24
+  - TEXT "Jazz vocal · Ven. 9 · 18 h 30" — Inter 400 14px/normal #6B6A80 @(524,2350) 184×17
+  - TEXT "Voir la fiche →" — Inter 700 14px/normal #C8402A @(524,2380) 98×17
+- **Carte · titre long et actions** [frame] 360×422 @(888,2252)
+  - shape 360×422 @(888,2252) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - **Image** [frame] 360×200 @(888,2252)
+    - **Clip path group** [frame] 360×200 @(888,2252)
+      - **cp902** [frame] 360×200 @(888,2252)
+        - shape 360×200 @(888,2252) fill:#000000 radius:12px
+      - rounded_rectangle 360×200 @(888,2252) fill:image:cordes-sensibles.jpg
+  - shape 360×6 @(888,2452) fill:#B87A1E
+  - **Badge · Le Kiosque** [frame] 92×24 @(908,2478)
+    - shape 92×24 @(908,2478) fill:#B87A1E radius:999 (pill/rond)
+    - TEXT "Le Kiosque" — Inter 700 12px/normal #1C1B2E align:center @(921,2482.3) 66×15
+  - TEXT "Cordes Sensibles et" — Inter 700 20px/normal #1C1B2E @(908,2518) 196×24
+  - TEXT "l’Ensemble du Kiosque" — Inter 700 20px/normal #1C1B2E @(908,2546) 222×24
+  - TEXT "Acoustique · Sam. 10 · 17 h 30" — Inter 400 14px/normal #6B6A80 @(908,2578) 199×17
+  - shape 360×1 @(888,2610) fill:#E3E5EA
+  - **Bouton · secondaire** [frame] 141×36 @(908,2622)
+    - shape 141×36 @(908,2622) fill:#1C1B2E radius:6px
+    - TEXT "Voir la fiche" — Inter 700 14px/normal #FFFFFF @(923.9,2631) 81×17
+  - **Bouton · contour** [frame] 115×36 @(1062,2622)
+    - shape 115×36 @(1062,2622) border:2px #1C1B2E radius:7px
+    - shape 12×12 @(1080.1,2634) border:2.2px #1C1B2E radius:1.1px
+    - TEXT "Ajouter" — Inter 700 14px/normal #1C1B2E @(1102.1,2631) 52×17
+- TEXT "Avec image · sans image · titre sur deux lignes et pied avec actions" — Inter 400 12px/normal #6B6A80 @(120,2690) 379×15
+- TEXT "Variantes" — Inter 700 15px/normal #1C1B2E @(120,2733) 71×18
+- **Carte · mise en avant** [frame] 420×452 @(120,2766)
+  - shape 420×452 @(120,2766) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - **Image** [frame] 420×280 @(120,2766)
+    - **Clip path group** [frame] 420×280 @(120,2766)
+      - **cp903** [frame] 420×280 @(120,2766)
+        - shape 420×280 @(120,2766) fill:#000000 radius:12px
+      - rounded_rectangle 420×280 @(120,2766) fill:image:lune-rousse.jpg
+  - shape 420×6 @(120,3046) fill:#1F4E8C
+  - **Badge · Scène du Lac** [frame] 106×24 @(140,3072)
+    - shape 106×24 @(140,3072) fill:#1F4E8C radius:999 (pill/rond)
+    - TEXT "Scène du Lac" — Inter 700 12px/normal #FFFFFF align:center @(153.5,3076.3) 79×15
+  - TEXT "LUNE ROUSSE" — Inter 700 26px/normal #1C1B2E @(140,3112) 182×31
+  - TEXT "Pop · Ven. 9 · 22 h 30" — Inter 400 14px/normal #6B6A80 @(140,3150) 142×17
+  - TEXT "Voir la fiche →" — Inter 700 14px/normal #C8402A @(140,3180) 98×17
+- **Carte · compacte** [frame] 280×305 @(564,2766)
+  - shape 280×305 @(564,2766) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - **Image** [frame] 280×150 @(564,2766)
+    - **Clip path group** [frame] 280×150 @(564,2766)
+      - **cp904** [frame] 280×150 @(564,2766)
+        - shape 280×150 @(564,2766) fill:#000000 radius:12px
+      - rounded_rectangle 280×150 @(564,2766) fill:image:brume.jpg
+  - shape 280×6 @(564,2916) fill:#2F6B3A
+  - **Badge · Scène de la Forêt** [frame] 142×24 @(580,2938)
+    - shape 142×24 @(580,2938) fill:#2F6B3A radius:999 (pill/rond)
+    - TEXT "Scène de la Forêt" — Inter 700 12px/normal #FFFFFF align:center @(600.5,2942.3) 101×15
+  - TEXT "Brume" — Inter 700 17px/normal #1C1B2E @(580,2978) 55×21
+  - TEXT "House · Sam. 10 · 01 h 00" — Inter 400 13px/normal #6B6A80 @(580,3008) 155×16
+  - TEXT "Voir la fiche →" — Inter 700 14px/normal #C8402A @(580,3037) 98×17
+- **Carte · compacte (2)** [frame] 280×305 @(868,2766)
+  - shape 280×305 @(868,2766) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - **Image** [frame] 280×150 @(868,2766)
+    - **Clip path group** [frame] 280×150 @(868,2766)
+      - **cp905** [frame] 280×150 @(868,2766)
+        - shape 280×150 @(868,2766) fill:#000000 radius:12px
+      - rounded_rectangle 280×150 @(868,2766) fill:image:sylve.jpg
+  - shape 280×6 @(868,2916) fill:#2F6B3A
+  - **Badge · Scène de la Forêt** [frame] 142×24 @(884,2938)
+    - shape 142×24 @(884,2938) fill:#2F6B3A radius:999 (pill/rond)
+    - TEXT "Scène de la Forêt" — Inter 700 12px/normal #FFFFFF align:center @(904.5,2942.3) 101×15
+  - TEXT "Sylve" — Inter 700 17px/normal #1C1B2E @(884,2978) 46×21
+  - TEXT "Ambient · Dim. 11 · 20 h 00" — Inter 400 13px/normal #6B6A80 @(884,3008) 164×16
+  - TEXT "Voir la fiche →" — Inter 700 14px/normal #C8402A @(884,3037) 98×17
+- TEXT "Mise en avant (têtes d’affiche) · compacte (autres artistes)" — Inter 400 12px/normal #6B6A80 @(120,3234) 332×15
+- TEXT "Horizontale" — Inter 700 15px/normal #1C1B2E @(120,3277) 86×18
+- **Carte · horizontale** [frame] 720×240 @(120,3310)
+  - shape 720×240 @(120,3310) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - **Image** [frame] 274×240 @(120,3310)
+    - **Clip path group** [frame] 274×240 @(120,3310)
+      - **cp906** [frame] 274×240 @(120,3310)
+        - shape 274×240 @(120,3310) fill:#000000 radius:12px
+      - rounded_rectangle 274×240 @(120,3310) fill:image:vertige-808.jpg
+  - shape 6×240 @(394,3310) fill:#2F6B3A
+  - **Badge · Scène de la Forêt** [frame] 142×24 @(424,3334)
+    - shape 142×24 @(424,3334) fill:#2F6B3A radius:999 (pill/rond)
+    - TEXT "Scène de la Forêt" — Inter 700 12px/normal #FFFFFF align:center @(444.5,3338.3) 101×15
+  - TEXT "Vertige 808" — Inter 700 22px/normal #1C1B2E @(424,3374) 129×27
+  - TEXT "Techno · Ven. 9 · 23 h 30" — Inter 400 14px/normal #6B6A80 @(424,3410) 165×17
+  - TEXT "Un set entre house et disco, pensé pour la" — Inter 400 14px/normal #3A3950 @(424,3444) 280×17
+  - TEXT "clairière de la forêt." — Inter 400 14px/normal #3A3950 @(424,3466) 128×17
+  - TEXT "Voir la fiche →" — Inter 700 14px/normal #C8402A @(424,3512) 98×17
+- TEXT "Image à gauche, contenu à droite : écrans larges et résultats de recherche" — Inter 400 12px/normal #6B6A80 @(120,3566) 421×15
+- TEXT "Autres cartes" — Inter 700 15px/normal #1C1B2E @(120,3609) 101×18
+- **Formule de pass** [frame] 300×360 @(120,3654)
+  - shape 300×360 @(120,3654) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - TEXT "Pass 1 jour" — Inter 700 18px/normal #1C1B2E @(144,3688) 94×22
+  - TEXT "49 €" — Inter 700 36px/normal #C8402A @(144,3722) 82×44
+  - shape 252×1 @(144,3784) fill:#E3E5EA
+  - shape 12×9 @(146,3807) border:2.2px #2F6B3A radius:0.4px
+  - TEXT "Accès aux trois scènes" — Inter 400 14px/normal #3A3950 @(168,3803) 152×17
+  - shape 12×9 @(146,3837) border:2.2px #2F6B3A radius:0.4px
+  - TEXT "Navette gratuite" — Inter 400 14px/normal #3A3950 @(168,3833) 108×17
+  - shape 12×9 @(146,3867) border:2.2px #2F6B3A radius:0.4px
+  - TEXT "Bracelet nominatif" — Inter 400 14px/normal #3A3950 @(168,3863) 121×17
+  - **Bouton · contour** [frame] 252×48 @(144,3946)
+    - shape 252×48 @(144,3946) border:2px #1C1B2E radius:7px
+    - TEXT "Choisir" — Inter 700 16px/normal #1C1B2E @(236.4,3959.8) 57×19
+- **Formule de pass · mise en avant** [frame] 300×374 @(444,3640)
+  - shape 300×360 @(444,3654) fill:#1C1B2E radius:12px
+  - **Ruban** [frame] 128×28 @(464,3640)
+    - shape 128×28 @(464,3640) fill:#F4C95D radius:999 (pill/rond)
+    - TEXT "Le plus choisi" — Inter 700 12px/normal #1C1B2E align:center @(488,3647) 80×15
+  - TEXT "Pass 3 jours" — Inter 700 18px/normal #FFFFFF @(468,3688) 107×22
+  - TEXT "119 €" — Inter 700 36px/normal #F4C95D @(468,3722) 93×44
+  - shape 252×1 @(468,3784) fill:#3A3950
+  - shape 12×9 @(470,3807) border:2.2px #F4C95D radius:0.4px
+  - TEXT "Accès aux trois scènes" — Inter 400 14px/normal #FFFFFF @(492,3803) 152×17
+  - shape 12×9 @(470,3837) border:2.2px #F4C95D radius:0.4px
+  - TEXT "Navette gratuite" — Inter 400 14px/normal #FFFFFF @(492,3833) 108×17
+  - shape 12×9 @(470,3867) border:2.2px #F4C95D radius:0.4px
+  - TEXT "Accès prioritaire au Kiosque" — Inter 400 14px/normal #FFFFFF @(492,3863) 186×17
+  - **Bouton · principal** [frame] 252×48 @(468,3946)
+    - shape 252×48 @(468,3946) fill:#C8402A radius:6px
+    - TEXT "Choisir" — Inter 700 16px/normal #FFFFFF @(560.4,3959.8) 57×19
+- **Bandeau de scène** [frame] 260×170 @(768,3654)
+  - shape 260×170 @(768,3654) fill:#1F4E8C radius:12px
+  - TEXT "Scène du Lac" — Inter 700 22px/normal #FFFFFF @(792,3712) 144×27
+  - TEXT "Pop et rock" — Inter 400 14px/normal #FFFFFF @(792,3746) 76×17
+  - TEXT "Découvrir la scène →" — Inter 700 13px/normal #FFFFFF @(792,3787) 134×16
+- **Bloc d’information** [frame] 268×170 @(1052,3654)
+  - shape 268×170 @(1052,3654) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - shape 40×40 @(1072,3678) fill:#F4F5F7 radius:999 (pill/rond)
+  - TEXT "1" — Inter 700 15px/normal #C8402A align:center @(1088,3689) 8×18
+  - TEXT "Accès" — Inter 700 18px/normal #1C1B2E @(1124,3687) 56×22
+  - TEXT "En train : gare de Saint-Aulnes," — Inter 400 13px/normal #3A3950 @(1076,3739) 190×16
+  - TEXT "puis navette gratuite." — Inter 400 13px/normal #3A3950 @(1076,3761) 131×16
+- TEXT "Formules de pass (normale et mise en avant) · bandeau d’accès à une scène · bloc d’informations pratiques" — Inter 400 12px/normal #6B6A80 @(120,4034) 606×15
+- **En-tête de section · Formulaires** [frame] 1200×87 @(120,4110)
+  - TEXT "Formulaires" — Inter 700 28px/normal #1C1B2E @(120,4110) 162×34
+  - shape 1200×2 @(120,4158) fill:#C8402A
+  - TEXT "Champ de saisie, liste déroulante et case à cocher, avec leurs états." — Inter 400 16px/normal #6B6A80 @(120,4178) 512×19
+- TEXT "Champ de saisie" — Inter 700 15px/normal #1C1B2E @(120,4279) 121×18
+- **Champ · normal** [frame] 220×101 @(360,4242)
+  - TEXT "Nom" — Inter 700 14px/normal #1C1B2E @(360,4242) 32×17
+  - shape 220×48 @(360,4270) fill:#FFFFFF border:1px #CBD0D8 radius:6px
+  - TEXT "Durand" — Inter 400 16px/normal #1C1B2E @(376,4284) 56×19
+  - TEXT "Texte d’aide" — Inter 400 13px/normal #6B6A80 @(360,4327) 74×16
+- **Champ · focus** [frame] 226×101 @(597,4242)
+  - TEXT "Formule" — Inter 700 14px/normal #1C1B2E @(600,4242) 56×17
+  - shape 226×54 @(597,4267) border:3px #F2B8AC radius:9.5px
+  - shape 220×48 @(600,4270) fill:#FFFFFF border:2px #C8402A radius:6px
+  - TEXT "Pass 3 jours" — Inter 400 16px/normal #1C1B2E @(616,4284) 93×19
+  - TEXT "Focus" — Inter 400 13px/normal #6B6A80 @(600,4327) 37×16
+- **Champ · erreur** [frame] 220×101 @(840,4242)
+  - TEXT "E-mail" — Inter 700 14px/normal #1C1B2E @(840,4242) 44×17
+  - shape 220×48 @(840,4270) fill:#FFFFFF border:2px #B3261E radius:6px
+  - TEXT "camille.durand@" — Inter 400 16px/normal #1C1B2E @(856,4284) 126×19
+  - TEXT "Adresse e-mail invalide." — Inter 400 13px/normal #B3261E @(840,4327) 147×16
+- **Champ · désactivé** [frame] 220×101 @(1080,4242)
+  - TEXT "Code promo" — Inter 700 14px/normal #1C1B2E @(1080,4242) 84×17
+  - shape 220×48 @(1080,4270) fill:#F4F5F7 border:1px #CBD0D8 radius:6px
+  - TEXT "Indisponible" — Inter 400 16px/normal #9A9DA8 @(1096,4284) 92×19
+  - TEXT "Désactivé" — Inter 400 13px/normal #6B6A80 @(1080,4327) 61×16
+- TEXT "Liste et case" — Inter 700 15px/normal #1C1B2E @(120,4399) 93×18
+- **Champ · normal** [frame] 300×76 @(360,4362)
+  - TEXT "Nombre de pass" — Inter 700 14px/normal #1C1B2E @(360,4362) 111×17
+  - shape 300×48 @(360,4390) fill:#FFFFFF border:1px #CBD0D8 radius:6px
+  - TEXT "2" — Inter 400 16px/normal #1C1B2E @(376,4404) 10×19
+  - shape 12×6 @(630,4410) border:2px #1C1B2E
+- **Case à cocher · cochée** [frame] 278×22 @(700,4402)
+  - shape 22×22 @(700,4402) fill:#C8402A radius:4px
+  - shape 12×9 @(705,4408) border:2.2px #FFFFFF radius:0.4px
+  - TEXT "J’accepte les conditions générales" — Inter 400 15px/normal #3A3950 @(734,4404) 244×18
+- **Case à cocher · non cochée** [frame] 191×22 @(1040,4402)
+  - shape 22×22 @(1040,4402) fill:#FFFFFF border:2px #CBD0D8 radius:4px
+  - TEXT "Recevoir la newsletter" — Inter 400 15px/normal #3A3950 @(1074,4404) 157×18
+- **En-tête de section · Filtres** [frame] 1200×87 @(120,4504)
+  - TEXT "Filtres" — Inter 700 28px/normal #1C1B2E @(120,4504) 86×34
+  - shape 1200×2 @(120,4552) fill:#C8402A
+  - TEXT "Groupe de boutons qui filtre le programme ; un seul filtre est sélectionné à la fois." — Inter 400 16px/normal #6B6A80 @(120,4572) 613×19
+- TEXT "Groupe de filtres" — Inter 700 15px/normal #1C1B2E @(120,4639) 123×18
+- **Filtre** [frame] 193×44 @(360,4626)
+  - shape 193×44 @(360,4626) fill:#FFFFFF border:1px #E3E5EA radius:999 (pill/rond)
+  - TEXT "Toutes les scènes" — Inter 700 15px/normal #3A3950 align:center @(390.5,4639) 132×18
+- **Filtre · sélectionné** [frame] 148×44 @(565,4626)
+  - shape 148×44 @(565,4626) fill:#1C1B2E radius:999 (pill/rond)
+  - TEXT "Scène du Lac" — Inter 700 15px/normal #FFFFFF align:center @(590,4639) 98×18
+- **Filtre** [frame] 193×44 @(725,4626)
+  - shape 193×44 @(725,4626) fill:#FFFFFF border:1px #E3E5EA radius:999 (pill/rond)
+  - TEXT "Scène de la Forêt" — Inter 700 15px/normal #3A3950 align:center @(758.5,4639) 126×18
+- **Filtre** [frame] 130×44 @(930,4626)
+  - shape 130×44 @(930,4626) fill:#FFFFFF border:1px #E3E5EA radius:999 (pill/rond)
+  - TEXT "Le Kiosque" — Inter 700 15px/normal #3A3950 align:center @(954,4639) 82×18
+- TEXT "Normal · sélectionné (ici « Scène du Lac »)" — Inter 400 12px/normal #6B6A80 @(360,4686) 241×15
+- **En-tête de section · Questions fréquentes** [frame] 1200×87 @(120,4762)
+  - TEXT "Questions fréquentes" — Inter 700 28px/normal #1C1B2E @(120,4762) 298×34
+  - shape 1200×2 @(120,4810) fill:#C8402A
+  - TEXT "Accordéon : chaque question s’ouvre et se ferme indépendamment." — Inter 400 16px/normal #6B6A80 @(120,4830) 510×19
+- TEXT "Fermée" — Inter 700 15px/normal #1C1B2E @(120,4909) 55×18
+- **Question · fermée** [frame] 960×64 @(360,4884)
+  - shape 960×64 @(360,4884) fill:#FFFFFF border:1px #E3E5EA radius:12px
+  - TEXT "Les enfants sont-ils acceptés ?" — Inter 700 17px/normal #1C1B2E @(392,4906) 259×21
+  - shape 16×8 @(1278,4912) border:2.5px #1C1B2E
+- TEXT "Ouverte" — Inter 700 15px/normal #1C1B2E @(120,4997) 60×18
+- **Question · ouverte** [frame] 960×140 @(360,4972)
+  - shape 960×140 @(360,4972) fill:#FFFFFF border:2px #1C1B2E radius:12px
+  - TEXT "Puis-je revendre mon pass ?" — Inter 700 17px/normal #1C1B2E @(392,4994) 235×21
+  - shape 16×8 @(1278,5002) border:2.5px #1C1B2E
+  - TEXT "Oui, via la plateforme officielle de revente, jusqu’à 48 heures avant le festival. Le pass est alors" — Inter 400 15px/normal #3A3950 @(392,5037) 669×18
+  - TEXT "réédité au nom du nouvel acheteur." — Inter 400 15px/normal #3A3950 @(392,5061) 250×18
+- **l-footer** [frame] 1440×260 @(0,5192)
+  - shape 1440×260 @(0,5192) fill:#1C1B2E
+  - TEXT "RÉSONANCES" — Inter 700 20px/normal #FFFFFF @(120,5242) 139×24
+  - TEXT "Festival de musique au bord du lac des Aulnes. Trois" — Inter 400 14px/normal #C9C7D6 @(120,5282) 346×17
+  - TEXT "jours, trois scènes, une quarantaine d’artistes." — Inter 400 14px/normal #C9C7D6 @(120,5304) 303×17
+  - TEXT "Le festival" — Inter 700 14px/normal #FFFFFF @(640,5248) 71×17
+  - TEXT "Programme" — Inter 400 14px/normal #C9C7D6 @(640,5280) 77×17
+  - TEXT "Billetterie" — Inter 400 14px/normal #C9C7D6 @(640,5308) 63×17
+  - TEXT "Infos pratiques" — Inter 400 14px/normal #C9C7D6 @(640,5336) 99×17
+  - TEXT "Contact" — Inter 700 14px/normal #FFFFFF @(860,5248) 56×17
+  - TEXT "contact@resonances-festival.fr" — Inter 400 14px/normal #C9C7D6 @(860,5280) 208×17
+  - TEXT "04 00 00 00 00" — Inter 400 14px/normal #C9C7D6 @(860,5308) 104×17
+  - TEXT "Newsletter" — Inter 700 14px/normal #FFFFFF @(1120,5248) 76×17
+  - shape 200×44 @(1120,5282) fill:#2A2940 border:1px #4A4960 radius:6px
+  - TEXT "Votre e-mail" — Inter 400 14px/normal #8E8CA3 @(1136,5296) 81×17
+  - shape 1200×1 @(120,5392) fill:#3A3950
+  - TEXT "© 2027 Association Résonances · Mentions légales · Accessibilité · Crédits photos" — Inter 400 12px/normal #8E8CA3 @(120,5412) 465×15
