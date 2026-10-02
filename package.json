@@ -1,0 +1,13 @@
+{
+  "name": "festival-resonances",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Festival Résonances — étapes 1 et 2 : Sass, SMACSS et jetons de conception.",
+  "scripts": {
+    "sass:build": "sass scss/main.scss css/style.css --no-source-map",
+    "sass:watch": "sass --watch scss/main.scss:css/style.css --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.105.1"
+  }
+}

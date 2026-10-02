@@ -1,0 +1,42 @@
+/* Festival Résonances — design tokens extraits de la maquette Figma (00 · Guide visuel) */
+:root {
+  /* Couleurs */
+  --color-text: #1C1B2E;          /* texte principal, titres, fond footer, pass mis en avant */
+  --color-text-body: #3A3950;     /* texte courant */
+  --color-text-muted: #6B6A80;    /* texte secondaire, nav inactive, fil d'Ariane */
+  --color-bg: #FFFFFF;
+  --color-bg-alt: #F4F5F7;        /* bandeau titre de page, blocs chiffres */
+  --color-border: #E3E5EA;
+  --color-border-field: #CBD0D8;
+  --color-primary: #C8402A;
+  --color-primary-hover: #A3311F;
+  --color-accent: #F4C95D;        /* ruban pass mis en avant, surtitre hero */
+  --color-error: #B3261E;
+  --color-focus-ring: #F2B8AC;    /* anneau de focus 3px autour des boutons/champs */
+
+  /* Scènes (classes .theme-lake / .theme-forest / .theme-kiosk) */
+  --scene-lake: #1F4E8C;   --scene-lake-text: #FFFFFF;
+  --scene-forest: #2F6B3A; --scene-forest-text: #FFFFFF;
+  --scene-kiosk: #B87A1E;  --scene-kiosk-text: #1C1B2E;
+
+  /* Typographie — Inter */
+  --font: "Inter", system-ui, sans-serif;
+  --fs-h1: 56px;  --lh-h1: 64px;  --fw-h1: 800;   /* Titre principal */
+  --fs-h2: 40px;  --lh-h2: 48px;  --fw-h2: 700;   /* Titre de section */
+  --fs-h3: 28px;  --lh-h3: 36px;  --fw-h3: 700;   /* Sous-titre */
+  --fs-lead: 20px; --lh-lead: 32px;               /* Texte d'introduction */
+  --fs-body: 16px; --lh-body: 26px;               /* Texte courant */
+  --fs-small: 14px; --lh-small: 22px;             /* Petit texte */
+
+  /* Espacements */
+  --space-1: 8px; --space-2: 16px; --space-3: 24px; --space-4: 40px; --space-5: 64px;
+
+  /* Rayons */
+  --radius-sm: 6px;    /* boutons, champs */
+  --radius-md: 12px;   /* cartes, pass, blocs */
+  --radius-pill: 999px;/* badges, filtres */
+
+  /* Layout */
+  --container: 1200px; /* contenu centré, marges 120px sur maquette 1440px */
+  --header-h: 88px;
+}

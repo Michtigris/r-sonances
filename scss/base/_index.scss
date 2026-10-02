@@ -1,0 +1,50 @@
+@use "../abstracts/variables" as vars;
+
+:root {
+  --font-family: #{vars.$font-family};
+
+  --color-text-primary: #{vars.$color-text-primary};
+  --color-text-current: #{vars.$color-text-current};
+  --color-text-secondary: #{vars.$color-text-secondary};
+  --color-background: #{vars.$color-background};
+  --color-background-alt: #{vars.$color-background-alt};
+  --color-border: #{vars.$color-border};
+  --color-border-field: #{vars.$color-border-field};
+  --color-primary: #{vars.$color-primary};
+  --color-primary-hover: #{vars.$color-primary-hover};
+  --color-accent: #{vars.$color-accent};
+  --color-error: #{vars.$color-error};
+  --color-scene-lake: #{vars.$color-scene-lake};
+  --color-scene-forest: #{vars.$color-scene-forest};
+  --color-scene-kiosk: #{vars.$color-scene-kiosk};
+
+  --font-size-title: #{vars.$font-size-title};
+  --font-size-heading: #{vars.$font-size-heading};
+  --font-size-subtitle: #{vars.$font-size-subtitle};
+  --font-size-intro: #{vars.$font-size-intro};
+  --font-size-body: #{vars.$font-size-body};
+  --font-size-small: #{vars.$font-size-small};
+
+  --line-height-title: #{vars.$line-height-title};
+  --line-height-heading: #{vars.$line-height-heading};
+  --line-height-subtitle: #{vars.$line-height-subtitle};
+  --line-height-intro: #{vars.$line-height-intro};
+  --line-height-body: #{vars.$line-height-body};
+  --line-height-small: #{vars.$line-height-small};
+
+  --font-weight-regular: #{vars.$font-weight-regular};
+  --font-weight-bold: #{vars.$font-weight-bold};
+  --font-weight-heavy: #{vars.$font-weight-heavy};
+
+  --space-1: #{vars.$space-1};
+  --space-2: #{vars.$space-2};
+  --space-3: #{vars.$space-3};
+  --space-4: #{vars.$space-4};
+  --space-5: #{vars.$space-5};
+
+  --radius-small: #{vars.$radius-small};
+  --radius-medium: #{vars.$radius-medium};
+  --radius-pill: #{vars.$radius-pill};
+
+  --border-width: #{vars.$border-width};
+}
