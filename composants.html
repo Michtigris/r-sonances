@@ -4,19 +4,62 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Jetons de conception du festival Résonances.">
-    <title>Jetons de conception | Résonances</title>
+    <meta name="description" content="Jetons de couleurs, typographie et espacements du festival Résonances.">
+    <title>Jetons | Résonances</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="l-components">
-    <section class="l-components__intro">
+    <header class="l-components__header">
         <div class="l-container">
-            <h1>Jetons de conception</h1>
-            <p>Couleurs, typographie et espacements du festival.</p>
+            <a href="index.html">Retour à l’accueil</a>
         </div>
-    </section>
+    </header>
+
     <main class="l-container l-components__main">
+        <section class="l-components__section" id="jetons" aria-labelledby="titre-jetons">
+            <h1 id="titre-jetons">Jetons</h1>
+            <p class="l-components__description">Couleurs, typographie et espacements utilisés par tous les composants.</p>
+            <div class="l-token-layout">
+                <h2>Couleurs</h2>
+                <div class="l-token-grid l-token-grid--colors" aria-label="Palette de couleurs">
+                    <span class="l-color-token l-color-token--text-primary">Texte principal</span>
+                    <span class="l-color-token l-color-token--text-current">Texte courant</span>
+                    <span class="l-color-token l-color-token--text-secondary">Texte secondaire</span>
+                    <span class="l-color-token l-color-token--background-alt">Fond alterné</span>
+                    <span class="l-color-token l-color-token--border">Bordures</span>
+                    <span class="l-color-token l-color-token--primary">Principale</span>
+                    <span class="l-color-token l-color-token--primary-hover">Survol</span>
+                    <span class="l-color-token l-color-token--accent">Accent</span>
+                    <span class="l-color-token l-color-token--error">Erreur</span>
+                </div>
+
+                <h2>Scènes</h2>
+                <div class="l-scene-grid">
+                    <div class="l-scene-token"><span class="bandeau bandeau--lac"><span>Scène du Lac</span></span><small>#1F4E8C</small></div>
+                    <div class="l-scene-token"><span class="bandeau bandeau--foret"><span>Scène de la Forêt</span></span><small>#2F6B3A</small></div>
+                    <div class="l-scene-token"><span class="bandeau bandeau--kiosque"><span>Le Kiosque</span></span><small>#B87A1E</small></div>
+                </div>
+
+                <h2>Typographie</h2>
+                <div class="l-type-showcase">
+                    <span class="l-type-token l-type-token--title">Titre 40</span>
+                    <span class="l-type-token l-type-token--subtitle">Sous-titre 28</span>
+                    <span class="l-type-token l-type-token--intro">Introduction 20</span>
+                    <span class="l-type-token l-type-token--body">Courant 16</span>
+                    <span class="l-type-token l-type-token--small">Petit 14</span>
+                </div>
+
+                <h2>Espacements</h2>
+                <div class="l-scale-list" aria-label="Échelle des espacements">
+                    <span class="l-scale-token l-space-token l-space-token--1">8 px</span>
+                    <span class="l-scale-token l-space-token l-space-token--2">16 px</span>
+                    <span class="l-scale-token l-space-token l-space-token--3">24 px</span>
+                    <span class="l-scale-token l-space-token l-space-token--4">40 px</span>
+                    <span class="l-scale-token l-space-token l-space-token--5">64 px</span>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
