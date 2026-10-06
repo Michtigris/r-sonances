@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Jetons de couleurs, typographie et espacements du festival Résonances.">
-    <title>Jetons | Résonances</title>
+    <meta name="description" content="Jetons et bibliothèque de composants du festival Résonances.">
+    <title>Bibliothèque de composants | Résonances</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -58,6 +58,267 @@
                     <span class="l-scale-token l-space-token l-space-token--4">40 px</span>
                     <span class="l-scale-token l-space-token l-space-token--5">64 px</span>
                 </div>
+            </div>
+        </section>
+        <section class="l-components__section" id="boutons">
+            <h2>Boutons</h2>
+            <p class="l-components__description">Un composant de base, des variantes de couleur et de taille, une icône facultative et des états.</p>
+            <div class="l-specimen">
+                <h3>Bouton de base</h3>
+                <div class="l-specimen__content">
+                    <a class="bouton bouton--principal" href="#billetterie">Réserver</a>
+                </div>
+                <h3>Couleurs</h3>
+                <div class="l-specimen__content">
+                    <button class="bouton bouton--principal" type="button">Principal</button>
+                    <button class="bouton bouton--secondaire" type="button">Secondaire</button>
+                    <button class="bouton bouton--contour" type="button">Contour</button>
+                    <button class="bouton bouton--clair" type="button"><span>Clair</span></button>
+                </div>
+                <h3>Tailles</h3>
+                <div class="l-specimen__content">
+                    <button class="bouton bouton--principal bouton--petit" type="button">Petit</button>
+                    <button class="bouton bouton--principal" type="button">Moyen</button>
+                    <button class="bouton bouton--principal bouton--grand" type="button">Grand</button>
+                </div>
+                <h3>Avec icône</h3>
+                <div class="l-specimen__content">
+                    <button class="bouton bouton--principal" type="button"><span aria-hidden="true">＋</span> Ajouter au programme</button>
+                    <button class="bouton bouton--sombre" type="button">
+                        <svg class="bouton__icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 7.5A2.5 2.5 0 0 1 6.5 5h11A2.5 2.5 0 0 1 20 7.5V9a3 3 0 0 0 0 6v1.5a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 16.5V15a3 3 0 0 0 0-6V7.5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+                            <path d="M9 8v2m0 4v2m0-4v1" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+                        </svg>
+                        Réserver
+                    </button>
+                    <button class="bouton bouton--icone bouton--contour" type="button" aria-label="Ajouter aux favoris">♡</button>
+                    <a class="bouton bouton--contour" href="#cartes"><span aria-hidden="true">→</span> Suivant</a>
+                </div>
+                <h3>Combinaisons et états</h3>
+                <div class="l-specimen__content l-specimen__content--states">
+                    <div class="l-button-example">
+                        <button class="bouton bouton--secondaire bouton--grand" type="button">Secondaire grand</button>
+                        <small>Combinaison</small>
+                    </div>
+                    <div class="l-button-example">
+                        <button class="bouton bouton--principal bouton--survol" type="button">Survol</button>
+                        <small>Survol</small>
+                    </div>
+                    <div class="l-button-example">
+                        <button class="bouton bouton--principal is-focus" type="button">Focus clavier</button>
+                        <small>Focus clavier</small>
+                    </div>
+                    <div class="l-button-example">
+                        <button class="bouton bouton--principal" type="button" disabled>Désactivé</button>
+                        <small>Désactivé</small>
+                    </div>
+                    <div class="l-button-example">
+                        <button class="bouton bouton--principal bouton--chargement" type="button" disabled aria-label="Chargement" aria-busy="true"><span class="l-spinner" aria-hidden="true"></span></button>
+                        <small>Chargement</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="l-components__section" id="badges">
+            <h2>Badges</h2>
+            <p class="l-components__description">Pour signaler une scène, un statut ou un nombre.</p>
+            <div class="l-specimen l-specimen--rows">
+                <h3>Badge de base</h3>
+                <div class="l-specimen__content"><span class="badge badge--neutre">Badge</span></div>
+                <h3>Scènes</h3>
+                <div class="l-specimen__content">
+                    <span class="badge badge--lac">Scène du Lac</span>
+                    <span class="badge badge--foret">Scène de la Forêt</span>
+                    <span class="badge badge--kiosque">Le Kiosque</span>
+                </div>
+                <h3>Statuts</h3>
+                <div class="l-specimen__content">
+                    <span class="badge badge--nouveau">Nouveau</span>
+                    <span class="badge badge--attente">Dernières places</span>
+                    <span class="badge badge--complet">Complet</span>
+                </div>
+                <h3>Tailles</h3>
+                <div class="l-specimen__content">
+                    <span class="badge badge--lac badge--petit">Petit</span>
+                    <span class="badge badge--lac badge--grand">Grand</span>
+                </div>
+                <h3>Styles</h3>
+                <div class="l-specimen__content">
+                    <span class="badge badge--foret">Plein arrondi</span>
+                    <span class="badge badge--contour">Contour</span>
+                    <span class="badge badge--kiosque">Angles droits</span>
+                </div>
+                <h3>Compteur</h3>
+                <div class="l-specimen__content">
+                    <span class="badge badge--compteur">
+                        <svg class="badge__icone" aria-hidden="true" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Mon programme
+                        <span class="badge__nombre" aria-label="3 artistes dans mon programme">3</span>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="l-components__section" id="cartes">
+            <h2>Cartes</h2>
+            <p class="l-components__description">La carte d’artiste, ses variantes, et les autres cartes du site.</p>
+            <div class="l-specimen l-specimen--stacked">
+                <h3>Carte de base</h3>
+                <div class="l-artist-grid l-artist-grid--three">
+                    <article class="carte-artiste carte-artiste--lac">
+                        <img src="assets/figma-export/images/maree-basse.jpg" alt="Concert de Marée Basse éclairé en bleu">
+                        <div class="carte-artiste__body">
+                            <span class="badge badge--lac">Scène du Lac</span>
+                            <h4>Marée Basse</h4>
+                            <p>Rock · Ven. 9 · 20 h 15</p>
+                            <a href="#cartes">Voir la fiche <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+                    <article class="carte-artiste carte-artiste--compacte carte-artiste--kiosque">
+                        <div class="carte-artiste__body">
+                            <span class="badge badge--kiosque">Le Kiosque</span>
+                            <h4>Clara Ninon Quartet</h4>
+                            <p>Jazz vocal · Ven. 9 · 18 h 30</p>
+                            <a href="#cartes">Voir la fiche <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+                    <article class="carte-artiste carte-artiste--kiosque">
+                        <img src="assets/figma-export/images/cordes-sensibles.jpg" alt="Batterie et guitares sur scène">
+                        <div class="carte-artiste__body">
+                            <span class="badge badge--kiosque">Le Kiosque</span>
+                            <h4>Cordes Sensibles et l’Ensemble du Kiosque</h4>
+                            <p>Acoustique · Sam. 10 · 17 h 30</p>
+                        </div>
+                        <div class="carte-artiste__actions">
+                            <a class="bouton bouton--sombre bouton--petit" href="#cartes">Voir la fiche</a>
+                            <button class="bouton bouton--contour bouton--petit" type="button">＋ Ajouter</button>
+                        </div>
+                    </article>
+                </div>
+                <p class="l-example-note">Avec image : sans image · lire sur deux lignes et pied avec actions</p>
+
+                <h3>Variantes</h3>
+                <div class="l-artist-grid l-artist-grid--variants">
+                    <article class="carte-artiste carte-artiste--lac">
+                        <img src="assets/figma-export/images/lune-rousse.jpg" alt="Scène rouge éclairée pendant un concert">
+                        <div class="carte-artiste__body">
+                            <span class="badge badge--lac">Scène du Lac</span>
+                            <h4>LUNE ROUSSE</h4>
+                            <p>Pop · Ven. 9 · 22 h 30</p>
+                            <a href="#cartes">Voir la fiche <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+                    <article class="carte-artiste carte-artiste--compacte carte-artiste--foret">
+                        <img src="assets/figma-export/images/brume.jpg" alt="Public filmant un concert en forêt">
+                        <div class="carte-artiste__body">
+                            <span class="badge badge--foret">Scène de la Forêt</span>
+                            <h4>Brume</h4>
+                            <p>House · Sam. 10 · 01 h 00</p>
+                            <a href="#cartes">Voir la fiche <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+                    <article class="carte-artiste carte-artiste--compacte carte-artiste--foret">
+                        <img src="assets/figma-export/images/sylve.jpg" alt="Concert électronique et lumières bleues">
+                        <div class="carte-artiste__body">
+                            <span class="badge badge--foret">Scène de la Forêt</span>
+                            <h4>Sylve</h4>
+                            <p>Ambient · Dim. 11 · 20 h 00</p>
+                            <a href="#cartes">Voir la fiche <span aria-hidden="true">→</span></a>
+                        </div>
+                    </article>
+                </div>
+                <p class="l-example-note">Mise en avant (billets difficiles) · compacte (autres artistes)</p>
+
+                <h3>Horizontale</h3>
+                <article class="carte-artiste carte-artiste--horizontale carte-artiste--foret">
+                    <img src="assets/figma-export/images/vertige-808.jpg" alt="Concert électronique en plein air">
+                    <div class="carte-artiste__body">
+                        <span class="badge badge--foret">Scène de la Forêt</span>
+                        <h4>Vertige 808</h4>
+                        <p>Techno · Ven. 9 · 23 h 30</p>
+                        <p>Un set entre house et disco, pensé pour la clairière de la forêt.</p>
+                        <a href="#cartes">Voir la fiche <span aria-hidden="true">→</span></a>
+                    </div>
+                </article>
+                <p class="l-example-note">Image à gauche, contenu à droite · écrans larges et résultats de recherche</p>
+
+                <h3 id="billetterie">Autres cartes</h3>
+                <div class="l-other-cards">
+                    <article class="carte-pass">
+                        <h4>Pass 1 jour</h4><strong>49 €</strong>
+                        <ul><li>Accès aux trois scènes</li><li>Navette gratuite</li><li>Bracelet nominatif</li></ul>
+                        <button class="bouton bouton--contour" type="button">Choisir</button>
+                    </article>
+                    <article class="carte-pass carte-pass--vedette">
+                        <span class="carte-pass__ribbon">Le plus choisi</span>
+                        <h4>Pass 3 jours</h4><strong>119 €</strong>
+                        <ul><li>Accès aux trois scènes</li><li>Navette gratuite</li><li>Accès prioritaire au Kiosque</li></ul>
+                        <button class="bouton bouton--principal" type="button">Choisir</button>
+                    </article>
+                    <article class="bandeau bandeau--scene">
+                        <h4>Scène du Lac</h4><p>Pop et rock</p><a href="#cartes">Découvrir la scène <span aria-hidden="true">→</span></a>
+                    </article>
+                    <article class="bloc-pratique">
+                        <span class="bloc-pratique__icon" aria-hidden="true">1</span>
+                        <div><h4>Accès</h4><p>En train : gare de Saint-Aulnes, puis navette gratuite.</p></div>
+                    </article>
+                </div>
+                <p class="l-example-note">Formules de pass (normal et mise en avant) · bandeau accès à une scène · bloc d’informations pratiques</p>
+            </div>
+        </section>
+
+        <section class="l-components__section" id="formulaires">
+            <h2>Formulaires</h2>
+            <p class="l-components__description">Champ de saisie, liste déroulante et case à cocher, avec leurs états.</p>
+            <div class="l-form-demo">
+                <h3>Champ de saisie</h3>
+                <div class="l-form-row">
+                    <label class="champ"><span>Nom</span><input type="text" value="Durand" aria-describedby="nom-aide"><small id="nom-aide">Texte d’aide</small></label>
+                    <label class="champ champ--focus"><span>Formule</span><input type="text" value="Pass 3 jours"><small>Focus</small></label>
+                    <label class="champ champ--erreur"><span>E-mail</span><input type="email" value="camille.durand@" aria-invalid="true" aria-describedby="email-erreur"><small id="email-erreur">Adresse e-mail invalide.</small></label>
+                    <label class="champ champ--desactive"><span>Code promo</span><input type="text" placeholder="Indisponible" disabled><small>Désactivé</small></label>
+                </div>
+                <h3>Liste et case</h3>
+                <div class="l-form-row l-form-row--bottom">
+                    <label class="champ"><span>Nombre de pass</span><select><option>2</option><option>1</option><option>3</option></select></label>
+                    <label class="l-check"><input type="checkbox" checked> J’accepte les conditions générales</label>
+                    <label class="l-check"><input type="checkbox"> Recevoir la newsletter</label>
+                </div>
+            </div>
+        </section>
+
+        <section class="l-components__section" id="filtres">
+            <h2>Filtres</h2>
+            <p class="l-components__description">Groupe de boutons qui filtre le programme ; un seul filtre est sélectionné à la fois.</p>
+            <div class="l-specimen l-specimen--rows">
+                <h3>Groupe de filtres</h3>
+                <div class="l-filter-set" role="group" aria-label="Filtrer par scène">
+                    <button class="filtre" type="button">Toutes les scènes</button>
+                    <button class="filtre is-active" type="button" aria-pressed="true">Scène du Lac</button>
+                    <button class="filtre" type="button">Scène de la Forêt</button>
+                    <button class="filtre" type="button">Le Kiosque</button>
+                </div>
+                <p class="l-example-note">Normal · sélectionné (ici « Scène du Lac »)</p>
+            </div>
+        </section>
+
+        <section class="l-components__section" id="questions">
+            <h2>Questions fréquentes</h2>
+            <p class="l-components__description">Accordéon : chaque question s’ouvre et se ferme indépendamment.</p>
+            <div class="l-faq">
+                <h3>Fermée</h3>
+                <details class="accordeon">
+                    <summary>Les enfants sont-ils acceptés ?</summary>
+                    <p>Oui, le festival est ouvert à tous. Les enfants de moins de 12 ans doivent être accompagnés d’un adulte.</p>
+                </details>
+                <h3>Ouverte</h3>
+                <details class="accordeon" open>
+                    <summary>Puis-je revendre mon pass ?</summary>
+                    <p>Oui, via la plateforme officielle de revente, jusqu’à 48 heures avant le festival. Le pass est alors réédité au nom du nouvel acheteur.</p>
+                </details>
             </div>
         </section>
     </main>
